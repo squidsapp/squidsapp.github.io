@@ -1,0 +1,17 @@
+{
+  "name": "Squids — Africa's Social Platform",
+  "short_name": "Squids",
+  "description": "Africa's premier social platform. Connect, share stories, and grow.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#04040a",
+  "theme_color": "#c026d3",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "images/favicon-purple.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "https://www.tyvila.online/cdn/squids-logo-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "categories": ["social", "entertainment", "communication"],
+  "lang": "en",
+  "scope": "/"
+}

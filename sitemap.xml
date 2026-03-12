@@ -1,15 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://squids.co.za/</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://squids.co.za/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://squids.co.za/?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://squids.co.za/?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="sw" href="https://squids.co.za/?lang=sw"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://squids.co.za/?lang=am"/>
+    <image:image>
+      <image:loc>https://www.tyvila.online/cdn/squids-og.png</image:loc>
+      <image:title>Squids — Africa's Social Platform</image:title>
+      <image:caption>Connect, share your stories, and discover communities across Africa.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.tyvila.online/cdn/squids-logo-512.png</image:loc>
+      <image:title>Squids Logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.tyvila.online/cdn/vv.png</image:loc>
+      <image:title>Vuyani Siyanda Vilakazi — Founder of Squids &amp; TyVila.Online</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://squids.co.za/pages/about.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://squids.co.za/pages/guide.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://squids.co.za/pages/download.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://squids.co.za/pages/sitemap.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
   </url>
 </urlset>

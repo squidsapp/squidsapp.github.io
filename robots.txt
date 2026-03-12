@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
-
+Disallow: /js/auth.js
 Sitemap: https://squids.co.za/sitemap.xml
+Host: squids.co.za

@@ -571,3 +571,78 @@ async function detectLanguage() {
 
 // Init
 detectLanguage();
+
+// ══ Extended French, Arabic, Swahili, Amharic translations ══
+// (Additional keys for new sections)
+if (typeof TRANSLATIONS !== 'undefined') {
+  const extra = {
+    en: {
+      'demo.title': 'Try Squids Demo',
+      'demo.sub': 'Experience the app before signing up',
+      'tutorial.title': 'Explore Squids — no login needed',
+      'faq.title': 'Frequently Asked Questions',
+      'feedback.title': 'Send Feedback',
+      'download.title': 'Download Squids',
+      'download.soon': 'Native App Coming Soon',
+      'about.founder': 'Founder & Developer',
+    },
+    fr: {
+      'demo.title': 'Essayez la démo de Squids',
+      'demo.sub': 'Découvrez l\'application avant de vous inscrire',
+      'tutorial.title': 'Explorez Squids — sans connexion',
+      'faq.title': 'Questions fréquentes',
+      'feedback.title': 'Envoyer des commentaires',
+      'download.title': 'Télécharger Squids',
+      'download.soon': 'Application native bientôt disponible',
+      'about.founder': 'Fondateur & Développeur',
+      'nav.features': 'Fonctionnalités',
+      'nav.guide': 'Guide',
+      'nav.map': 'Carte',
+      'nav.about': 'À propos',
+      'nav.openApp': 'Ouvrir l\'app',
+      'hero.badge': 'La plateforme sociale africaine',
+      'hero.line1': 'Connectez.',
+      'hero.line2': 'Partagez.',
+      'hero.line3': 'Prospérez.',
+      'hero.sub': 'Squids est la plateforme sociale construite pour l\'Afrique — partagez votre histoire, découvrez des communautés, devenez viral avec Ocean.',
+      'hero.openApp': 'Ouvrir l\'app',
+      'hero.followUs': 'Suivre @squids',
+    },
+    ar: {
+      'demo.title': 'جرب عرض سكويدز',
+      'faq.title': 'الأسئلة الشائعة',
+      'feedback.title': 'إرسال ملاحظات',
+      'download.title': 'تحميل سكويدز',
+      'nav.features': 'المميزات',
+      'nav.guide': 'الدليل',
+      'nav.openApp': 'فتح التطبيق',
+      'hero.line1': 'تواصل.',
+      'hero.line2': 'شارك.',
+      'hero.line3': 'ازدهر.',
+      'hero.sub': 'سكويدز هي المنصة الاجتماعية المبنية لأفريقيا',
+    },
+    sw: {
+      'demo.title': 'Jaribu Demo ya Squids',
+      'faq.title': 'Maswali Yanayoulizwa Mara kwa Mara',
+      'feedback.title': 'Tuma Maoni',
+      'nav.features': 'Vipengele',
+      'nav.guide': 'Mwongozo',
+      'nav.openApp': 'Fungua App',
+      'hero.line1': 'Unganisha.',
+      'hero.line2': 'Shiriki.',
+      'hero.line3': 'Stawi.',
+      'hero.sub': 'Squids ni jukwaa la kijamii lililojengwa kwa Afrika',
+    },
+    am: {
+      'nav.openApp': 'መተግበሪያ ክፈት',
+      'hero.line1': 'ተያይዙ.',
+      'hero.line2': 'አጋሩ.',
+      'hero.line3': 'አድጉ.',
+    }
+  };
+  Object.keys(extra).forEach(function(lang) {
+    if (TRANSLATIONS[lang]) {
+      Object.assign(TRANSLATIONS[lang], extra[lang]);
+    }
+  });
+}

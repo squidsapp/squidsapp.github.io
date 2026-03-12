@@ -1,19 +1,31 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
 <head>
   <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https: data: 'unsafe-inline' 'unsafe-eval'; img-src 'self' https: data:; frame-src https://app.squids.co.za;"/>
+  <meta http-equiv="X-Frame-Options" content="SAMEORIGIN"/>
+  <meta http-equiv="X-Content-Type-Options" content="nosniff"/>
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(self)"/>
+  <meta name="referrer" content="strict-origin-when-cross-origin"/>
 
-  <!-- Primary SEO -->
-  <title>Squids — Africa's Social Platform</title>
-  <meta name="description" content="Squids is Africa's premier social platform. Share stories, connect with communities, discover creators and grow together across the continent. Download or open the app now."/>
-  <meta name="keywords" content="Squids, Africa social media, South Africa app, African social network, connect Africa, TyVila, community app, African creators, social platform"/>
+  <!-- ══ PRIMARY SEO ══════════════════════════════════════════ -->
+  <title>Squids — Africa's Social Platform | Connect, Share &amp; Thrive</title>
+  <meta name="title" content="Squids — Africa's Social Platform | Connect, Share &amp; Thrive"/>
+  <meta name="description" content="Squids is Africa's premier social platform. Share stories, connect with communities, discover creators and grow together across the continent. 54 African nations. 5 languages. 100% free. Join now at app.squids.co.za"/>
+  <meta name="keywords" content="Squids, Africa social media, South Africa social app, African social network, connect Africa, TyVila, community app, African creators, social platform Africa, Squids app, squids.co.za, Africa Twitter, Africa Instagram, Africa TikTok, African friends, connect with friends Africa, social media South Africa, free social media Africa, Squids social, Ocean mode, African communities, post videos Africa, share stories Africa"/>
   <meta name="author" content="Vuyani Siyanda Vilakazi — TyVila.Online"/>
-  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large"/>
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+  <meta name="rating" content="General"/>
+  <meta name="revisit-after" content="3 days"/>
+  <meta name="language" content="English"/>
+  <meta name="geo.region" content="ZA"/>
+  <meta name="geo.placename" content="South Africa"/>
   <link rel="canonical" href="https://squids.co.za"/>
 
-  <!-- Language alternates -->
+  <!-- ══ LANGUAGE ALTERNATES ══════════════════════════════════ -->
   <link rel="alternate" hreflang="en" href="https://squids.co.za?lang=en"/>
   <link rel="alternate" hreflang="fr" href="https://squids.co.za?lang=fr"/>
   <link rel="alternate" hreflang="ar" href="https://squids.co.za?lang=ar"/>
@@ -21,79 +33,103 @@
   <link rel="alternate" hreflang="am" href="https://squids.co.za?lang=am"/>
   <link rel="alternate" hreflang="x-default" href="https://squids.co.za"/>
 
-  <!-- OpenGraph -->
+  <!-- ══ OPEN GRAPH (Facebook, WhatsApp, LinkedIn) ════════════ -->
   <meta property="og:type" content="website"/>
   <meta property="og:site_name" content="Squids"/>
   <meta property="og:title" content="Squids — Africa's Social Platform"/>
-  <meta property="og:description" content="Connect, share your stories, and discover communities across Africa. Built by Africans, for Africa."/>
+  <meta property="og:description" content="Connect, share your stories, and discover communities across Africa. Built by Africans, for Africa. 100% free. Join 2.4M+ users now."/>
   <meta property="og:image" content="https://www.tyvila.online/cdn/squids-og.png"/>
+  <meta property="og:image:secure_url" content="https://www.tyvila.online/cdn/squids-og.png"/>
   <meta property="og:image:width" content="1200"/>
   <meta property="og:image:height" content="630"/>
+  <meta property="og:image:alt" content="Squids — Africa's Social Platform. Connect, Share, Thrive."/>
+  <meta property="og:image:type" content="image/png"/>
   <meta property="og:url" content="https://squids.co.za"/>
   <meta property="og:locale" content="en_ZA"/>
+  <meta property="og:locale:alternate" content="fr_CI"/>
+  <meta property="og:locale:alternate" content="ar_EG"/>
+  <meta property="og:locale:alternate" content="sw_KE"/>
 
-  <!-- Twitter/X -->
+  <!-- Extra OG images for different platforms -->
+  <meta property="og:image" content="https://www.tyvila.online/cdn/squids-logo-512.png"/>
+  <meta property="og:image:width" content="512"/>
+  <meta property="og:image:height" content="512"/>
+  <meta property="og:image:alt" content="Squids Logo"/>
+
+  <!-- ══ TWITTER / X CARD ═════════════════════════════════════ -->
   <meta name="twitter:card" content="summary_large_image"/>
   <meta name="twitter:site" content="@squidsapp"/>
   <meta name="twitter:creator" content="@squidsapp"/>
   <meta name="twitter:title" content="Squids — Africa's Social Platform"/>
-  <meta name="twitter:description" content="Connect, share your stories, and discover communities across Africa."/>
+  <meta name="twitter:description" content="Connect, share your stories, and discover communities across Africa. 54 nations. 5 languages. 100% free."/>
   <meta name="twitter:image" content="https://www.tyvila.online/cdn/squids-og.png"/>
+  <meta name="twitter:image:alt" content="Squids — Africa's Social Platform"/>
 
-  <!-- PWA / mobile -->
-  <meta name="theme-color" content="#14b49d"/>
+  <!-- ══ FAVICON & PWA ════════════════════════════════════════ -->
+  <!-- Purple-tinted icon -->
+  <link rel="icon" type="image/svg+xml" href="images/favicon-purple.svg"/>
+  <link rel="icon" type="image/x-icon" href="images/favicon-purple.ico"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png"/>
+  <link rel="manifest" href="manifest.json"/>
+  <meta name="theme-color" content="#c026d3"/>
+  <meta name="msapplication-TileColor" content="#c026d3"/>
   <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
   <meta name="apple-mobile-web-app-title" content="Squids"/>
-  <link rel="icon" type="image/x-icon" href="https://www.tyvila.online/favicon.ico"/>
-  <link rel="apple-touch-icon" href="https://www.tyvila.online/favicon.ico"/>
+  <meta name="application-name" content="Squids"/>
 
-  <!-- Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "Squids",
-    "url": "https://app.squids.co.za",
-    "description": "Africa's social platform for sharing stories, connecting communities, and discovering creators.",
-    "applicationCategory": "SocialNetworkingApplication",
-    "operatingSystem": "Any",
-    "creator": {
-      "@type": "Person",
-      "name": "Vuyani Siyanda Vilakazi",
-      "url": "https://www.tyvila.online"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "TyVila.Online",
-      "url": "https://www.tyvila.online"
-    },
-    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "ZAR" },
-    "screenshot": "https://www.tyvila.online/cdn/squids-og.png",
-    "featureList": ["Social feed", "Ocean video mode", "Groups", "Direct messages", "Multilingual support"]
-  }
-  </script>
-
-  <!-- Fonts -->
+  <!-- ══ FONTS ════════════════════════════════════════════════ -->
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800;900&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"/>
+
+  <!-- ══ PRELOAD CRITICAL IMAGES ══════════════════════════════ -->
+  <link rel="preload" as="image" href="https://www.tyvila.online/cdn/squids-og.png"/>
+  <link rel="preload" as="image" href="https://www.tyvila.online/cdn/vv.png"/>
 
   <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/extended.css"/>
+
+  <!-- ══ INLINE CRITICAL CSS ══════════════════════════════════ -->
+  <style>
+    :root {
+      --font-display: 'Bricolage Grotesque', sans-serif;
+      --font-body: 'DM Sans', sans-serif;
+      --font-mono: 'Space Mono', monospace;
+    }
+    body { font-family: var(--font-body); background: #04040a; color: #f0f0ff; overflow-x: hidden; }
+    .hero-title { font-family: var(--font-display); }
+    /* Purple logo gradient */
+    #sqPurple stop:first-child { stop-color: #c026d3; }
+    #sqPurple stop:last-child { stop-color: #7c3aed; }
+  </style>
 </head>
 <body>
+
+<!-- ══ SCROLL PROGRESS ══════════════════════════════════════ -->
+<div id="scrollProgress"></div>
+
+<!-- ══ LOGGED-IN BANNER ═════════════════════════════════════ -->
+<div id="loggedInBanner">
+  <span>👋 Welcome back, <strong id="bannerUsername">@you</strong>!</span>
+  <a href="https://app.squids.co.za" target="_blank" rel="noopener">Open App →</a>
+</div>
 
 <!-- ══════════════════ NAV ══════════════════ -->
 <nav class="nav" id="nav">
   <div class="nav-inner">
     <a href="#" class="nav-logo">
       <svg width="36" height="36" viewBox="0 0 72 72" fill="none">
-        <rect width="72" height="72" rx="18" fill="url(#sqG)"/>
         <defs>
-          <linearGradient id="sqG" x1="0" y1="0" x2="72" y2="72">
-            <stop offset="0%" stop-color="#14b49d"/>
-            <stop offset="100%" stop-color="#059478"/>
+          <linearGradient id="sqNavG" x1="0" y1="0" x2="72" y2="72">
+            <stop offset="0%" stop-color="#c026d3"/>
+            <stop offset="50%" stop-color="#7c3aed"/>
+            <stop offset="100%" stop-color="#14b49d"/>
           </linearGradient>
         </defs>
+        <rect width="72" height="72" rx="18" fill="url(#sqNavG)"/>
         <circle cx="36" cy="27" r="13.5" fill="white"/>
         <ellipse cx="36" cy="41.5" rx="9.5" ry="6" fill="white" opacity=".88"/>
         <ellipse cx="22.5" cy="51.5" rx="3.8" ry="2.4" fill="white" opacity=".65" transform="rotate(-25 22.5 51.5)"/>
@@ -101,8 +137,8 @@
         <ellipse cx="36" cy="57" rx="3.8" ry="2.4" fill="white" opacity=".78"/>
         <ellipse cx="43" cy="55.5" rx="3.8" ry="2.4" fill="white" opacity=".72" transform="rotate(10 43 55.5)"/>
         <ellipse cx="49.5" cy="51.5" rx="3.8" ry="2.4" fill="white" opacity=".65" transform="rotate(25 49.5 51.5)"/>
-        <circle cx="30.5" cy="24" r="2.8" fill="#14b49d"/>
-        <circle cx="41.5" cy="24" r="2.8" fill="#14b49d"/>
+        <circle cx="30.5" cy="24" r="2.8" fill="#c026d3"/>
+        <circle cx="41.5" cy="24" r="2.8" fill="#c026d3"/>
         <circle cx="30.5" cy="23.2" r="1.4" fill="white"/>
         <circle cx="41.5" cy="23.2" r="1.4" fill="white"/>
       </svg>
@@ -112,11 +148,14 @@
     <div class="nav-links">
       <a href="#features" data-i18n="nav.features">Features</a>
       <a href="#guide" data-i18n="nav.guide">Guide</a>
+      <a href="pages/about.html">About</a>
+      <a href="pages/guide.html">Full Guide</a>
+      <a href="pages/download.html">Download</a>
       <a href="#map" data-i18n="nav.map">Map</a>
-      <a href="#about" data-i18n="nav.about">About</a>
     </div>
 
     <div class="nav-right">
+      <button class="nav-demo-btn" onclick="SQ.openDemo('feed')">▶ Try Demo</button>
       <div class="lang-selector">
         <button class="lang-btn" id="langBtn">
           <span id="currentLang">EN</span>
@@ -137,29 +176,26 @@
     </div>
   </div>
 
-  <!-- Mobile menu -->
   <div class="mobile-menu" id="mobileMenu">
     <a href="#features" data-i18n="nav.features">Features</a>
     <a href="#guide" data-i18n="nav.guide">Guide</a>
-    <a href="#map" data-i18n="nav.map">Map</a>
-    <a href="#about" data-i18n="nav.about">About</a>
+    <a href="pages/about.html">About</a>
+    <a href="pages/guide.html">Full Guide</a>
+    <a href="pages/download.html">Download</a>
+    <a href="#map">Map</a>
+    <button onclick="SQ.openDemo('feed')" style="background:rgba(20,180,157,.12);border:1px solid rgba(20,180,157,.25);color:#14b49d;padding:10px 16px;border-radius:10px;font-size:14px;font-weight:700;cursor:pointer;font-family:inherit;margin:4px 0;">▶ Try Demo</button>
     <a href="https://app.squids.co.za" class="mobile-cta" target="_blank" rel="noopener" data-i18n="nav.openApp">Open App →</a>
   </div>
 </nav>
 
 <!-- ══════════════════ HERO ══════════════════ -->
 <section class="hero" id="hero">
-  <!-- Animated background particles -->
+  <canvas id="particleCanvas" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0;opacity:.7;"></canvas>
   <div class="hero-bg">
-    <div class="particle p1"></div>
-    <div class="particle p2"></div>
-    <div class="particle p3"></div>
-    <div class="particle p4"></div>
-    <div class="particle p5"></div>
-    <div class="particle p6"></div>
-    <div class="blob blob1"></div>
-    <div class="blob blob2"></div>
-    <div class="blob blob3"></div>
+    <div class="particle p1"></div><div class="particle p2"></div>
+    <div class="particle p3"></div><div class="particle p4"></div>
+    <div class="particle p5"></div><div class="particle p6"></div>
+    <div class="blob blob1"></div><div class="blob blob2"></div><div class="blob blob3"></div>
     <div class="grid-lines"></div>
   </div>
 
@@ -170,9 +206,10 @@
     </div>
 
     <h1 class="hero-title reveal reveal-delay-1">
-      <span class="hero-title-line" data-i18n="hero.line1">Connect.</span>
-      <span class="hero-title-line accent" data-i18n="hero.line2">Share.</span>
-      <span class="hero-title-line" data-i18n="hero.line3">Thrive.</span>
+      <span class="hero-title-line">Share your </span>
+      <span class="hero-title-line accent shimmer-text" id="typingText">stories</span><span class="hero-title-line accent" style="animation:blink 1s step-end infinite;opacity:.7;">|</span>
+      <br/>
+      <span class="hero-title-line">across Africa.</span>
     </h1>
 
     <p class="hero-sub reveal reveal-delay-2" data-i18n="hero.sub">
@@ -182,39 +219,49 @@
     <div class="hero-actions reveal reveal-delay-3">
       <a href="https://app.squids.co.za" class="btn-primary-hero" target="_blank" rel="noopener">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-        <span data-i18n="hero.openApp">Open App</span>
+        <span>Open App — It's Free</span>
       </a>
+      <button onclick="SQ.openDemo('feed')" class="btn-secondary-hero">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        <span>Try Demo</span>
+      </button>
       <a href="https://app.squids.co.za/profile/squids" class="btn-secondary-hero" target="_blank" rel="noopener">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-        <span data-i18n="hero.followUs">Follow @squids</span>
+        <span>Follow @squids</span>
       </a>
     </div>
 
     <div class="hero-stats reveal reveal-delay-4">
       <div class="stat">
         <span class="stat-num" data-count="54">0</span><span class="stat-unit">+</span>
-        <span class="stat-label" data-i18n="hero.countries">African Nations</span>
+        <span class="stat-label">African Nations</span>
       </div>
       <div class="stat-divider"></div>
       <div class="stat">
-        <span class="stat-num" data-count="5">0</span><span class="stat-unit"></span>
-        <span class="stat-label" data-i18n="hero.languages">Languages</span>
+        <span class="stat-num" data-count="5">0</span>
+        <span class="stat-label">Languages</span>
       </div>
       <div class="stat-divider"></div>
       <div class="stat">
         <span class="stat-num" data-count="100">0</span><span class="stat-unit">%</span>
-        <span class="stat-label" data-i18n="hero.free">Free Forever</span>
+        <span class="stat-label">Free Forever</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="live-indicator" style="font-size:12px;">
+          <span class="live-dot"></span>
+          <span id="liveViewers">...</span> online
+        </span>
+        <span class="stat-label">Right now</span>
       </div>
     </div>
   </div>
 
-  <!-- Phone mockup -->
-  <div class="hero-mockup reveal reveal-delay-2">
+  <div class="hero-mockup reveal reveal-delay-2" style="perspective:1000px;">
     <div class="phone-frame">
       <div class="phone-notch"></div>
       <div class="phone-screen">
         <div class="phone-app">
-          <!-- Simulated app UI -->
           <div class="app-header">
             <div class="app-logo-sm">🦑</div>
             <div class="app-search-bar"></div>
@@ -227,10 +274,7 @@
               <div class="post-text-line"></div>
               <div class="post-text-line short"></div>
               <div class="post-img"></div>
-              <div class="post-actions">
-                <span class="pa-heart">♥ 128</span>
-                <span class="pa-cmt">💬 24</span>
-              </div>
+              <div class="post-actions"><span class="pa-heart">♥ 2.4K</span><span class="pa-cmt">💬 184</span></div>
             </div>
           </div>
           <div class="app-post">
@@ -238,16 +282,10 @@
             <div class="post-content">
               <div class="post-name-line"></div>
               <div class="post-text-line"></div>
-              <div class="post-actions">
-                <span class="pa-heart">♥ 57</span>
-                <span class="pa-cmt">💬 8</span>
-              </div>
+              <div class="post-actions"><span class="pa-heart">♥ 847</span><span class="pa-cmt">💬 62</span></div>
             </div>
           </div>
-          <div class="app-ocean-preview">
-            <div class="ocean-wave-icon">🌊</div>
-            <span>Ocean</span>
-          </div>
+          <div class="app-ocean-preview"><div class="ocean-wave-icon">🌊</div><span>Ocean</span></div>
           <div class="app-bottom-nav">
             <span class="bn active">⌂</span>
             <span class="bn">🔭</span>
@@ -259,245 +297,185 @@
       </div>
       <div class="phone-home-indicator"></div>
     </div>
-    <!-- Floating badges -->
     <div class="float-badge fb1">🌍 54 Countries</div>
     <div class="float-badge fb2">🌊 Ocean Mode</div>
-    <div class="float-badge fb3">🔒 100% Secure</div>
+    <div class="float-badge fb3">🔒 POPIA Compliant</div>
+  </div>
+</section>
+
+<!-- ══ @SQUIDS PROFILE + FOLLOW CTA ════════════════════════ -->
+<section style="padding:80px 0 40px;background:#04040a;">
+  <div class="section-inner" style="max-width:600px;">
+    <div class="section-label reveal" style="text-align:center;">OFFICIAL ACCOUNT</div>
+    <h2 class="section-title reveal reveal-delay-1" style="text-align:center;">Follow us on Squids</h2>
+    <p class="section-sub reveal reveal-delay-2" style="text-align:center;">Stay updated with platform news, featured creators, and community highlights.</p>
+
+    <div class="squids-profile-card reveal reveal-delay-3">
+      <div class="sqp-header">
+        <div class="sqp-avatar sq-logo-anim">
+          <svg width="38" height="38" viewBox="0 0 72 72" fill="none">
+            <defs><linearGradient id="sqP2" x1="0" y1="0" x2="72" y2="72"><stop stop-color="#c026d3"/><stop offset=".5" stop-color="#7c3aed"/><stop offset="1" stop-color="#14b49d"/></linearGradient></defs>
+            <rect width="72" height="72" rx="18" fill="url(#sqP2)"/>
+            <circle cx="36" cy="27" r="13.5" fill="white"/>
+            <ellipse cx="36" cy="41.5" rx="9.5" ry="6" fill="white" opacity=".88"/>
+            <ellipse cx="22.5" cy="51.5" rx="3.8" ry="2.4" fill="white" opacity=".65" transform="rotate(-25 22.5 51.5)"/>
+            <ellipse cx="29" cy="55.5" rx="3.8" ry="2.4" fill="white" opacity=".72" transform="rotate(-10 29 55.5)"/>
+            <ellipse cx="36" cy="57" rx="3.8" ry="2.4" fill="white" opacity=".78"/>
+            <ellipse cx="43" cy="55.5" rx="3.8" ry="2.4" fill="white" opacity=".72" transform="rotate(10 43 55.5)"/>
+            <ellipse cx="49.5" cy="51.5" rx="3.8" ry="2.4" fill="white" opacity=".65" transform="rotate(25 49.5 51.5)"/>
+          </svg>
+        </div>
+        <div class="sqp-info">
+          <div class="sqp-name">
+            <span id="squidsDisplayName">Squids</span>
+            <span class="sqp-verified"><svg viewBox="0 0 16 16" fill="none"><path d="M4.5 8l2.5 2.5L11.5 5.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </div>
+          <div class="sqp-handle">@squids · Africa's social platform</div>
+        </div>
+      </div>
+      <p class="sqp-bio">The official Squids account 🦑 Africa's premier social platform. Follow for updates, featured creators, and community news. 🌍</p>
+      <div class="sqp-stats">
+        <div class="sqp-stat">
+          <div class="sqp-stat-num" id="squidsFollowers">...</div>
+          <div class="sqp-stat-label">Followers</div>
+        </div>
+        <div class="sqp-stat">
+          <div class="sqp-stat-num">0</div>
+          <div class="sqp-stat-label">Following</div>
+        </div>
+        <div class="sqp-stat">
+          <div class="sqp-stat-num">54+</div>
+          <div class="sqp-stat-label">Countries</div>
+        </div>
+      </div>
+      <a href="https://app.squids.co.za/profile/squids" class="sqp-follow-btn" target="_blank" rel="noopener">
+        Follow @squids on the app
+      </a>
+    </div>
   </div>
 </section>
 
 <!-- ══════════════════ FEATURES ══════════════════ -->
 <section class="features" id="features">
   <div class="section-inner">
-    <div class="section-label reveal" data-i18n="features.label">WHY SQUIDS</div>
-    <h2 class="section-title reveal reveal-delay-1" data-i18n="features.title">Everything you need to connect across Africa</h2>
-    <p class="section-sub reveal reveal-delay-2" data-i18n="features.sub">Built from the ground up with African creators, communities, and cultures at its heart.</p>
+    <div class="section-label reveal">WHY SQUIDS</div>
+    <h2 class="section-title reveal reveal-delay-1">Everything you need to connect across Africa</h2>
+    <p class="section-sub reveal reveal-delay-2">Built from the ground up with African creators, communities, and cultures at its heart.</p>
 
     <div class="features-grid">
-      <!-- Feature cards -->
       <div class="feature-card fc-ocean reveal reveal-delay-1">
         <div class="feature-icon">🌊</div>
-        <h3 data-i18n="feat.ocean.title">Ocean Mode</h3>
-        <p data-i18n="feat.ocean.desc">Our TikTok-style vertical video feed. Swipe through endless African content — music, comedy, culture, and more. 2:3 on mobile, 16:9 on desktop.</p>
-        <div class="feature-tag" data-i18n="feat.ocean.tag">Video First</div>
+        <h3>Ocean Mode</h3>
+        <p>Our TikTok-style vertical video feed. Swipe through endless African content — music, comedy, culture, and more. 2:3 on mobile, 16:9 on desktop.</p>
+        <div class="feature-tag">Video First</div>
       </div>
-
       <div class="feature-card fc-post reveal reveal-delay-2">
         <div class="feature-icon">✍️</div>
-        <h3 data-i18n="feat.post.title">Posts & Stories</h3>
-        <p data-i18n="feat.post.desc">Share text, images, videos, audio, and polls. Tag your friends, use hashtags, and start conversations that matter.</p>
-        <div class="feature-tag" data-i18n="feat.post.tag">Rich Media</div>
+        <h3>Posts &amp; Stories</h3>
+        <p>Share text, images, videos, audio, and polls. Tag your friends, use hashtags, and start conversations that matter.</p>
+        <div class="feature-tag">Rich Media</div>
       </div>
-
       <div class="feature-card fc-groups reveal reveal-delay-3">
         <div class="feature-icon">👥</div>
-        <h3 data-i18n="feat.groups.title">Communities & Groups</h3>
-        <p data-i18n="feat.groups.desc">Create or join communities around shared interests. Public or private groups with admin tools, member management, and dedicated feeds.</p>
-        <div class="feature-tag" data-i18n="feat.groups.tag">Community</div>
+        <h3>Communities &amp; Groups</h3>
+        <p>Create or join communities around shared interests. Public or private groups with admin tools, member management, and dedicated feeds.</p>
+        <div class="feature-tag">Community</div>
       </div>
-
       <div class="feature-card fc-msg reveal reveal-delay-1">
         <div class="feature-icon">💬</div>
-        <h3 data-i18n="feat.msg.title">Direct Messages</h3>
-        <p data-i18n="feat.msg.desc">Real-time private messaging with end-to-end privacy. Share media, react with emojis, and stay connected personally.</p>
-        <div class="feature-tag" data-i18n="feat.msg.tag">Private & Secure</div>
+        <h3>Direct Messages</h3>
+        <p>Real-time private messaging with end-to-end privacy. Share media, react with emojis, and stay connected personally.</p>
+        <div class="feature-tag">Private &amp; Secure</div>
       </div>
-
       <div class="feature-card fc-explore reveal reveal-delay-2">
         <div class="feature-icon">🔭</div>
-        <h3 data-i18n="feat.explore.title">Explore & Discover</h3>
-        <p data-i18n="feat.explore.desc">Search people, hashtags, and trending topics. Find creators to follow, discover new communities, and see what's happening across Africa.</p>
-        <div class="feature-tag" data-i18n="feat.explore.tag">Discovery</div>
+        <h3>Explore &amp; Discover</h3>
+        <p>Search people, hashtags, and trending topics. Find creators to follow, discover new communities, and see what's happening across Africa.</p>
+        <div class="feature-tag">Discovery</div>
       </div>
-
       <div class="feature-card fc-analytics reveal reveal-delay-3">
         <div class="feature-icon">📊</div>
-        <h3 data-i18n="feat.analytics.title">Post Analytics</h3>
-        <p data-i18n="feat.analytics.desc">See who viewed, liked, and saved your posts. Track engagement and understand your reach across the continent.</p>
-        <div class="feature-tag" data-i18n="feat.analytics.tag">Creator Tools</div>
+        <h3>Post Analytics</h3>
+        <p>See who viewed, liked, and saved your posts. Track engagement and understand your reach across the continent.</p>
+        <div class="feature-tag">Creator Tools</div>
       </div>
-
       <div class="feature-card fc-multi reveal reveal-delay-1">
         <div class="feature-icon">🗣️</div>
-        <h3 data-i18n="feat.multi.title">Multilingual</h3>
-        <p data-i18n="feat.multi.desc">Squids speaks your language — English, French, Arabic, Swahili, and Amharic. Automatically detects your location for the best experience.</p>
-        <div class="feature-tag" data-i18n="feat.multi.tag">5 Languages</div>
+        <h3>Multilingual</h3>
+        <p>Squids speaks your language — English, French, Arabic, Swahili, and Amharic. Automatically detects your location for the best experience.</p>
+        <div class="feature-tag">5 Languages</div>
       </div>
-
       <div class="feature-card fc-privacy reveal reveal-delay-2">
         <div class="feature-icon">🔒</div>
-        <h3 data-i18n="feat.privacy.title">Privacy Controls</h3>
-        <p data-i18n="feat.privacy.desc">Control who sees your followers, liked posts, and more. 2FA auto-protection, private groups, and full POPIA compliance.</p>
-        <div class="feature-tag" data-i18n="feat.privacy.tag">POPIA Compliant</div>
+        <h3>Privacy Controls</h3>
+        <p>Control who sees your followers, liked posts, and more. 2FA auto-protection, private groups, and full POPIA compliance.</p>
+        <div class="feature-tag">POPIA Compliant</div>
       </div>
-
       <div class="feature-card fc-free reveal reveal-delay-3">
         <div class="feature-icon">✨</div>
-        <h3 data-i18n="feat.free.title">100% Free</h3>
-        <p data-i18n="feat.free.desc">No subscriptions, no ads in your feed, no selling your data. Squids is and always will be free for every African.</p>
-        <div class="feature-tag" data-i18n="feat.free.tag">Always Free</div>
+        <h3>100% Free</h3>
+        <p>No subscriptions, no ads in your feed, no selling your data. Squids is and always will be free for every African.</p>
+        <div class="feature-tag">Always Free</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ══════════════════ AFRICA MAP ══════════════════ -->
-<section class="map-section" id="map">
+<!-- ══ TUTORIAL / DEMO SECTION ══════════════════════════════ -->
+<section class="tutorial-section" id="demo">
   <div class="section-inner">
-    <div class="section-label reveal" data-i18n="map.label">LANGUAGES OF AFRICA</div>
-    <h2 class="section-title reveal reveal-delay-1" data-i18n="map.title">One continent, many voices</h2>
-    <p class="section-sub reveal reveal-delay-2" data-i18n="map.sub">Squids supports the languages that matter most across Africa. Each colour represents a language group present in that nation.</p>
+    <div class="section-label reveal">TRY BEFORE YOU JOIN</div>
+    <h2 class="section-title reveal reveal-delay-1">Explore Squids — no login needed</h2>
+    <p class="section-sub reveal reveal-delay-2">Our demo mode is a direct copy of the app. See exactly what Squids looks and feels like before creating an account.</p>
 
-    <div class="map-container reveal reveal-delay-2">
-      <div class="map-legend">
-        <div class="legend-item"><div class="legend-dot" style="background:#14b49d"></div><span data-i18n="lang.english">English</span></div>
-        <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div><span data-i18n="lang.french">Français</span></div>
-        <div class="legend-item"><div class="legend-dot" style="background:#3b82f6"></div><span data-i18n="lang.arabic">عربي</span></div>
-        <div class="legend-item"><div class="legend-dot" style="background:#ec4899"></div><span data-i18n="lang.swahili">Kiswahili</span></div>
-        <div class="legend-item"><div class="legend-dot" style="background:#8b5cf6"></div><span data-i18n="lang.amharic">አማርኛ</span></div>
-        <div class="legend-item"><div class="legend-dot" style="background:linear-gradient(135deg,#14b49d 50%,#ec4899 50%)"></div><span data-i18n="lang.multi">Multiple</span></div>
+    <div class="tutorial-grid">
+      <div class="tutorial-card reveal reveal-delay-1">
+        <span class="tutorial-icon">🏠</span>
+        <h3>Home Feed Demo</h3>
+        <p>Browse a live sample of the Squids home feed with real posts, likes, and comments. No account needed.</p>
+        <button class="tutorial-launch" onclick="SQ.openDemo('feed')">▶ Launch Feed Demo</button>
       </div>
-
-      <div class="africa-map-wrap">
-        <svg id="africaMap" viewBox="0 0 900 1000" fill="none" xmlns="http://www.w3.org/2000/svg" class="africa-svg">
-          <!-- NORTH AFRICA -->
-          <!-- Morocco -->
-          <path id="ma" class="country" d="M210 105 L175 110 L160 140 L155 175 L170 195 L200 200 L230 185 L245 160 L240 130 L225 110 Z" data-name="Morocco" data-lang="ar" data-support="Arabic" fill="#3b82f6"/>
-          <!-- Algeria -->
-          <path id="dz" class="country" d="M245 95 L280 88 L340 92 L380 100 L395 130 L385 165 L370 200 L330 215 L290 220 L250 215 L230 195 L230 165 L245 140 L245 110 Z" data-name="Algeria" data-lang="ar" data-support="Arabic" fill="#3b82f6"/>
-          <!-- Tunisia -->
-          <path id="tn" class="country" d="M380 90 L400 85 L415 100 L420 130 L405 145 L385 140 L378 115 Z" data-name="Tunisia" data-lang="ar" data-support="Arabic" fill="#3b82f6"/>
-          <!-- Libya -->
-          <path id="ly" class="country" d="M415 90 L480 88 L530 95 L545 130 L540 175 L525 210 L490 220 L455 218 L420 210 L405 175 L410 140 L418 110 Z" data-name="Libya" data-lang="ar" data-support="Arabic" fill="#3b82f6"/>
-          <!-- Egypt -->
-          <path id="eg" class="country" d="M545 90 L610 88 L640 100 L645 130 L630 165 L600 185 L565 182 L545 165 L535 135 L538 108 Z" data-name="Egypt" data-lang="ar" data-support="Arabic" fill="#3b82f6"/>
-
-          <!-- WEST AFRICA -->
-          <!-- Mauritania -->
-          <path id="mr" class="country" d="M155 195 L200 210 L230 200 L250 222 L245 265 L215 280 L185 278 L155 265 L138 240 L140 218 Z" data-name="Mauritania" data-lang="ar" data-support="Arabic" fill="#3b82f6"/>
-          <!-- Mali -->
-          <path id="ml" class="country" d="M250 215 L295 222 L340 218 L370 208 L380 240 L375 275 L355 298 L320 310 L280 308 L255 290 L245 265 L248 240 Z" data-name="Mali" data-lang="fr" data-support="Français" fill="#f59e0b"/>
-          <!-- Niger -->
-          <path id="ne" class="country" d="M375 200 L420 210 L460 215 L490 220 L505 250 L500 285 L475 305 L435 315 L395 312 L365 298 L360 270 L370 245 Z" data-name="Niger" data-lang="fr" data-support="Français" fill="#f59e0b"/>
-          <!-- Senegal -->
-          <path id="sn" class="country" d="M138 260 L155 265 L170 280 L162 295 L148 300 L133 288 L128 272 Z" data-name="Senegal" data-lang="fr" data-support="Français" fill="#f59e0b"/>
-          <!-- Guinea-Bissau -->
-          <path id="gw" class="country" d="M133 295 L148 300 L145 312 L130 315 L125 305 Z" data-name="Guinea-Bissau" data-lang="fr" data-support="Français" fill="#f59e0b"/>
-          <!-- Guinea -->
-          <path id="gn" class="country" d="M148 300 L172 295 L185 308 L185 328 L168 338 L148 332 L138 318 L135 302 Z" data-name="Guinea" data-lang="fr" data-support="Français" fill="#f59e0b"/>
-          <!-- Sierra Leone -->
-          <path id="sl" class="country" d="M138 332 L158 338 L162 355 L148 360 L134 348 Z" data-name="Sierra Leone" data-lang="en" data-support="English" fill="#14b49d"/>
-          <!-- Liberia -->
-          <path id="lr" class="country" d="M158 338 L180 332 L195 345 L192 362 L175 370 L158 360 Z" data-name="Liberia" data-lang="en" data-support="English" fill="#14b49d"/>
-          <!-- Côte d'Ivoire -->
-          <path id="ci" class="country" d="M185 308 L218 305 L238 315 L240 338 L228 355 L205 358 L190 345 L185 330 Z" data-name="Côte d'Ivoire" data-lang="fr" data-support="Français" fill="#f59e0b"/>
-          <!-- Ghana -->
-          <path id="gh" class="country" d="M238 308 L268 308 L278 328 L272 355 L255 365 L240 355 L235 335 Z" data-name="Ghana" data-lang="en" data-support="English" fill="#14b49d"/>
-          <!-- Burkina Faso -->
-          <path id="bf" class="country" d="M270 278 L310 278 L325 295 L318 318 L295 325 L268 318 L260 300 Z" data-name="Burkina Faso" data-lang="fr" data-support="Français" fill="#f59e0b"/>
-          <!-- Togo -->
-          <path id="tg" class="country" d="M278 318 L293 318 L298 342 L290 362 L278 358 L272 338 Z" data-name="Togo" data-lang="fr" data-support="Français" fill="#f59e0b"/>
-          <!-- Benin -->
-          <path id="bj" class="country" d="M298 308 L320 308 L328 328 L322 355 L305 358 L295 340 L295 318 Z" data-name="Benin" data-lang="fr" data-support="Français" fill="#f59e0b"/>
-          <!-- Nigeria -->
-          <path id="ng" class="country" d="M320 298 L370 298 L395 315 L405 345 L395 375 L368 385 L338 380 L318 362 L308 332 L318 308 Z" data-name="Nigeria" data-lang="en" data-support="English" fill="#14b49d"/>
-          <!-- Chad -->
-          <path id="td" class="country" d="M435 220 L490 222 L520 245 L525 280 L510 315 L480 330 L445 325 L420 305 L418 272 L425 240 Z" data-name="Chad" data-lang="ar,fr" data-support="Arabic,Français" fill="url(#multiArFr)"/>
-
-          <!-- CENTRAL AFRICA -->
-          <!-- Cameroon -->
-          <path id="cm" class="country" d="M368 378 L395 362 L418 370 L425 398 L415 425 L392 435 L368 428 L355 405 L358 385 Z" data-name="Cameroon" data-lang="en,fr" data-support="English,Français" fill="url(#multiEnFr)"/>
-          <!-- Central African Republic -->
-          <path id="cf" class="country" d="M420 370 L465 365 L505 372 L515 398 L505 425 L475 438 L442 432 L418 418 L415 392 Z" data-name="Central African Republic" data-lang="fr" data-support="Français" fill="#f59e0b"/>
-          <!-- DR Congo -->
-          <path id="cd" class="country" d="M415 435 L448 432 L500 438 L535 445 L558 475 L555 515 L535 545 L498 558 L462 555 L428 540 L405 512 L400 478 L408 452 Z" data-name="DR Congo" data-lang="fr" data-support="Français" fill="#f59e0b"/>
-          <!-- Republic of Congo -->
-          <path id="cg" class="country" d="M368 428 L400 420 L408 445 L402 475 L378 480 L358 462 L352 440 Z" data-name="Republic of Congo" data-lang="fr" data-support="Français" fill="#f59e0b"/>
-          <!-- Gabon -->
-          <path id="ga" class="country" d="M348 402 L368 398 L372 425 L360 445 L340 438 L335 418 Z" data-name="Gabon" data-lang="fr" data-support="Français" fill="#f59e0b"/>
-          <!-- Equatorial Guinea -->
-          <path id="gq" class="country" d="M335 388 L352 388 L355 402 L338 405 L330 395 Z" data-name="Equatorial Guinea" data-lang="fr" data-support="Français" fill="#f59e0b"/>
-          <!-- São Tomé — tiny, skip path for clarity -->
-
-          <!-- EAST AFRICA -->
-          <!-- Sudan -->
-          <path id="sd" class="country" d="M528 188 L580 185 L618 192 L640 220 L638 265 L620 298 L585 310 L548 305 L528 278 L520 245 L520 215 Z" data-name="Sudan" data-lang="ar" data-support="Arabic" fill="#3b82f6"/>
-          <!-- South Sudan -->
-          <path id="ss" class="country" d="M515 308 L548 305 L580 312 L592 338 L585 365 L555 375 L522 368 L502 345 L505 320 Z" data-name="South Sudan" data-lang="en" data-support="English" fill="#14b49d"/>
-          <!-- Eritrea -->
-          <path id="er" class="country" d="M618 190 L648 182 L668 198 L660 225 L640 228 L620 215 Z" data-name="Eritrea" data-lang="ar,am" data-support="Arabic,Amharic" fill="url(#multiArAm)"/>
-          <!-- Ethiopia -->
-          <path id="et" class="country" d="M590 230 L630 225 L668 240 L685 268 L678 300 L655 318 L620 322 L588 310 L570 285 L572 255 Z" data-name="Ethiopia" data-lang="am" data-support="Amharic" fill="#8b5cf6"/>
-          <!-- Djibouti -->
-          <path id="dj" class="country" d="M668 240 L685 235 L695 250 L682 262 L668 258 Z" data-name="Djibouti" data-lang="ar,fr" data-support="Arabic,Français" fill="url(#multiArFr)"/>
-          <!-- Somalia -->
-          <path id="so" class="country" d="M660 238 L698 228 L730 250 L738 285 L720 328 L695 348 L665 340 L648 312 L648 278 Z" data-name="Somalia" data-lang="ar" data-support="Arabic" fill="#3b82f6"/>
-          <!-- Uganda -->
-          <path id="ug" class="country" d="M555 368 L585 362 L605 378 L608 402 L590 415 L562 412 L545 395 L548 375 Z" data-name="Uganda" data-lang="en,sw" data-support="English,Kiswahili" fill="url(#multiEnSw)"/>
-          <!-- Kenya -->
-          <path id="ke" class="country" d="M590 338 L622 325 L658 338 L668 368 L655 398 L628 415 L600 410 L580 390 L582 362 Z" data-name="Kenya" data-lang="en,sw" data-support="English,Kiswahili" fill="url(#multiEnSw)"/>
-          <!-- Rwanda -->
-          <path id="rw" class="country" d="M555 408 L570 405 L578 418 L568 430 L552 425 Z" data-name="Rwanda" data-lang="en,fr,sw" data-support="English,Français,Kiswahili" fill="url(#multiEnSw)"/>
-          <!-- Burundi -->
-          <path id="bi" class="country" d="M558 428 L572 425 L578 440 L565 450 L552 442 Z" data-name="Burundi" data-lang="fr,sw" data-support="Français,Kiswahili" fill="url(#multiEnSw)"/>
-          <!-- Tanzania -->
-          <path id="tz" class="country" d="M560 418 L600 415 L635 422 L655 450 L648 488 L622 508 L585 510 L558 490 L545 462 L548 435 Z" data-name="Tanzania" data-lang="sw,en" data-support="Kiswahili,English" fill="url(#multiEnSw)"/>
-
-          <!-- SOUTHERN AFRICA -->
-          <!-- Angola -->
-          <path id="ao" class="country" d="M365 480 L400 478 L428 488 L440 518 L432 552 L408 568 L378 562 L358 540 L352 510 L355 488 Z" data-name="Angola" data-lang="fr" data-support="Português" fill="#94a3b8"/>
-          <!-- Zambia -->
-          <path id="zm" class="country" d="M455 518 L498 515 L532 525 L545 555 L535 585 L508 598 L478 595 L452 578 L442 552 L442 528 Z" data-name="Zambia" data-lang="en" data-support="English" fill="#14b49d"/>
-          <!-- Malawi -->
-          <path id="mw" class="country" d="M558 498 L575 498 L582 522 L572 548 L558 552 L545 535 L545 510 Z" data-name="Malawi" data-lang="en" data-support="English" fill="#14b49d"/>
-          <!-- Mozambique -->
-          <path id="mz" class="country" d="M555 502 L585 512 L615 530 L625 562 L618 598 L598 625 L572 635 L548 618 L535 590 L540 558 L545 530 Z" data-name="Mozambique" data-lang="en" data-support="Português" fill="#94a3b8"/>
-          <!-- Zimbabwe -->
-          <path id="zw" class="country" d="M478 558 L510 558 L535 562 L538 590 L520 610 L495 615 L472 600 L460 578 Z" data-name="Zimbabwe" data-lang="en" data-support="English" fill="#14b49d"/>
-          <!-- Botswana -->
-          <path id="bw" class="country" d="M428 582 L460 578 L475 602 L470 632 L448 648 L420 638 L405 612 L408 588 Z" data-name="Botswana" data-lang="en" data-support="English" fill="#14b49d"/>
-          <!-- Namibia -->
-          <path id="na" class="country" d="M370 570 L408 565 L408 598 L398 630 L375 655 L350 648 L332 622 L332 592 L348 572 Z" data-name="Namibia" data-lang="en" data-support="English" fill="#14b49d"/>
-          <!-- South Africa -->
-          <path id="za" class="country" d="M375 658 L408 640 L450 650 L478 668 L490 700 L480 730 L455 748 L420 752 L388 740 L365 715 L355 688 L360 665 Z" data-name="South Africa" data-lang="en" data-support="English" fill="#14b49d"/>
-          <!-- Lesotho (inside SA) -->
-          <path id="ls" class="country" d="M428 705 L442 700 L450 715 L440 728 L425 726 L418 712 Z" data-name="Lesotho" data-lang="en" data-support="English" fill="#0a9180"/>
-          <!-- eSwatini -->
-          <path id="sz" class="country" d="M488 658 L500 655 L506 668 L498 678 L484 672 Z" data-name="eSwatini" data-lang="en" data-support="English" fill="#0a9180"/>
-          <!-- Madagascar -->
-          <path id="mg" class="country" d="M645 498 L665 488 L688 505 L695 538 L685 572 L665 590 L642 580 L628 552 L630 520 Z" data-name="Madagascar" data-lang="fr" data-support="Français" fill="#f59e0b"/>
-
-          <!-- Gradient defs for multi-language countries -->
-          <defs>
-            <linearGradient id="multiEnFr" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="50%" stop-color="#14b49d"/>
-              <stop offset="50%" stop-color="#f59e0b"/>
-            </linearGradient>
-            <linearGradient id="multiArFr" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="50%" stop-color="#3b82f6"/>
-              <stop offset="50%" stop-color="#f59e0b"/>
-            </linearGradient>
-            <linearGradient id="multiEnSw" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="50%" stop-color="#14b49d"/>
-              <stop offset="50%" stop-color="#ec4899"/>
-            </linearGradient>
-            <linearGradient id="multiArAm" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="50%" stop-color="#3b82f6"/>
-              <stop offset="50%" stop-color="#8b5cf6"/>
-            </linearGradient>
-          </defs>
-        </svg>
-
-        <!-- Country tooltip -->
-        <div class="map-tooltip" id="mapTooltip">
-          <div class="tooltip-name" id="tooltipName">Country</div>
-          <div class="tooltip-lang" id="tooltipLang">Language</div>
-        </div>
+      <div class="tutorial-card reveal reveal-delay-2">
+        <span class="tutorial-icon">🌊</span>
+        <h3>Ocean Mode Demo</h3>
+        <p>Experience the vertical video feed. Swipe through African content in fullscreen mode — just like TikTok but ours.</p>
+        <button class="tutorial-launch" onclick="SQ.openDemo('ocean')">▶ Launch Ocean Demo</button>
       </div>
+      <div class="tutorial-card reveal reveal-delay-3">
+        <span class="tutorial-icon">🔭</span>
+        <h3>Explore Demo</h3>
+        <p>Discover trending hashtags, people to follow, and communities. See what's happening across Africa right now.</p>
+        <button class="tutorial-launch" onclick="SQ.openDemo('explore')">▶ Launch Explore</button>
+      </div>
+      <div class="tutorial-card reveal reveal-delay-1">
+        <span class="tutorial-icon">🦑</span>
+        <h3>@squids Profile</h3>
+        <p>Visit the official @squids profile in the app. See our posts, follower count, and follow us directly from there.</p>
+        <button class="tutorial-launch" onclick="SQ.openDemo('profile')">▶ View @squids</button>
+      </div>
+    </div>
+  </div>
+</section>
 
-      <div class="map-cta reveal">
-        <p data-i18n="map.cta">Squids is available in every African country. No matter where you are on the continent, we speak your language.</p>
-        <a href="https://app.squids.co.za" class="btn-primary-sm" target="_blank" rel="noopener" data-i18n="map.join">Join from your country →</a>
+<!-- ══ STATS ════════════════════════════════════════════════ -->
+<section class="stats-section">
+  <div class="section-inner">
+    <div class="stats-grid">
+      <div class="stat-block reveal">
+        <div class="stat-block-num"><span data-count="54">0</span>+</div>
+        <div class="stat-block-label">African Nations Covered</div>
+      </div>
+      <div class="stat-block reveal reveal-delay-1">
+        <div class="stat-block-num"><span data-count="5">0</span></div>
+        <div class="stat-block-label">Languages Supported</div>
+      </div>
+      <div class="stat-block reveal reveal-delay-2">
+        <div class="stat-block-num"><span data-count="100">0</span>%</div>
+        <div class="stat-block-label">Free Forever</div>
+      </div>
+      <div class="stat-block reveal reveal-delay-3">
+        <div class="stat-block-num"><span data-count="2">0</span>FA</div>
+        <div class="stat-block-label">Security Protection</div>
       </div>
     </div>
   </div>
@@ -506,205 +484,107 @@
 <!-- ══════════════════ GUIDE ══════════════════ -->
 <section class="guide" id="guide">
   <div class="section-inner">
-    <div class="section-label reveal" data-i18n="guide.label">HOW IT WORKS</div>
-    <h2 class="section-title reveal reveal-delay-1" data-i18n="guide.title">Your complete guide to Squids</h2>
+    <div class="section-label reveal">HOW IT WORKS</div>
+    <h2 class="section-title reveal reveal-delay-1">Your complete guide to Squids</h2>
 
     <div class="guide-tabs reveal reveal-delay-2">
-      <button class="g-tab active" onclick="showGuide('start')" data-i18n="guide.tab.start">Getting Started</button>
-      <button class="g-tab" onclick="showGuide('post')" data-i18n="guide.tab.post">Posting</button>
-      <button class="g-tab" onclick="showGuide('ocean')" data-i18n="guide.tab.ocean">Ocean</button>
-      <button class="g-tab" onclick="showGuide('groups')" data-i18n="guide.tab.groups">Groups</button>
-      <button class="g-tab" onclick="showGuide('profile')" data-i18n="guide.tab.profile">Profile</button>
-      <button class="g-tab" onclick="showGuide('privacy')" data-i18n="guide.tab.privacy">Privacy</button>
+      <button class="g-tab active" onclick="showGuide('start')">Getting Started</button>
+      <button class="g-tab" onclick="showGuide('post')">Posting</button>
+      <button class="g-tab" onclick="showGuide('ocean')">Ocean</button>
+      <button class="g-tab" onclick="showGuide('groups')">Groups</button>
+      <button class="g-tab" onclick="showGuide('profile')">Profile</button>
+      <button class="g-tab" onclick="showGuide('privacy')">Privacy</button>
     </div>
 
     <div class="guide-content">
-      <!-- Getting Started -->
       <div class="guide-panel active" id="guide-start">
         <div class="guide-steps">
-          <div class="guide-step">
-            <div class="step-num">01</div>
-            <div class="step-body">
-              <h3 data-i18n="guide.start.s1.title">Sign Up or Log In</h3>
-              <p data-i18n="guide.start.s1.desc">Go to <a href="https://app.squids.co.za" target="_blank" rel="noopener">app.squids.co.za</a> and tap <strong>Sign Up</strong>. Enter your email, choose a username (3–20 characters, letters/numbers/underscores), and set a secure password. You'll receive an email verification code to confirm your account.</p>
-            </div>
-          </div>
-          <div class="guide-step">
-            <div class="step-num">02</div>
-            <div class="step-body">
-              <h3 data-i18n="guide.start.s2.title">Complete Onboarding</h3>
-              <p data-i18n="guide.start.s2.desc">After signing up, you'll be guided through a quick onboarding flow. Upload your avatar, write a short bio, choose your interests, and follow some accounts to get your feed started. Your language is auto-detected based on your location.</p>
-            </div>
-          </div>
-          <div class="guide-step">
-            <div class="step-num">03</div>
-            <div class="step-body">
-              <h3 data-i18n="guide.start.s3.title">Explore & Follow</h3>
-              <p data-i18n="guide.start.s3.desc">Head to the <strong>Explore</strong> page to discover trending hashtags and people to follow. Search by username or topic. Your home feed shows posts from everyone you follow, updated in real time.</p>
-            </div>
-          </div>
-          <div class="guide-step">
-            <div class="step-num">04</div>
-            <div class="step-body">
-              <h3 data-i18n="guide.start.s4.title">Enable Two-Factor Auth</h3>
-              <p data-i18n="guide.start.s4.desc">Squids automatically activates 2FA when you sign in from an unknown device. A one-time code is sent to your email. This keeps your account protected without any setup required.</p>
-            </div>
-          </div>
+          <div class="guide-step"><div class="step-num">01</div><div class="step-body"><h3>Sign Up or Log In</h3><p>Go to <a href="https://app.squids.co.za" target="_blank" rel="noopener">app.squids.co.za</a> and tap <strong>Sign Up</strong>. Enter your email, choose a username (3–20 characters), and set a secure password. You'll receive an email verification code.</p></div></div>
+          <div class="guide-step"><div class="step-num">02</div><div class="step-body"><h3>Complete Onboarding</h3><p>Upload your avatar, write a short bio, choose your interests, and follow some accounts to get your feed started. Your language is auto-detected based on your location.</p></div></div>
+          <div class="guide-step"><div class="step-num">03</div><div class="step-body"><h3>Explore &amp; Follow</h3><p>Head to the <strong>Explore</strong> page to discover trending hashtags and people to follow. Your home feed shows posts from everyone you follow, updated in real time.</p></div></div>
+          <div class="guide-step"><div class="step-num">04</div><div class="step-body"><h3>Enable Two-Factor Auth</h3><p>Squids automatically activates 2FA when you sign in from an unknown device. A one-time code is sent to your email. No setup required.</p></div></div>
         </div>
       </div>
-
-      <!-- Posting -->
       <div class="guide-panel" id="guide-post">
         <div class="guide-steps">
-          <div class="guide-step">
-            <div class="step-num">01</div>
-            <div class="step-body">
-              <h3 data-i18n="guide.post.s1.title">Create a Post</h3>
-              <p data-i18n="guide.post.s1.desc">Tap the <strong>+</strong> button (bottom centre on mobile, left sidebar on desktop). You can share text, upload images, videos, audio files, or create a poll. Combine multiple types in one post.</p>
-            </div>
-          </div>
-          <div class="guide-step">
-            <div class="step-num">02</div>
-            <div class="step-body">
-              <h3 data-i18n="guide.post.s2.title">Use Hashtags & Mentions</h3>
-              <p data-i18n="guide.post.s2.desc">Type <strong>#hashtag</strong> to tag topics and make your post discoverable in Explore. Use <strong>@username</strong> to mention and notify another user. Both are clickable and searchable across the app.</p>
-            </div>
-          </div>
-          <div class="guide-step">
-            <div class="step-num">03</div>
-            <div class="step-body">
-              <h3 data-i18n="guide.post.s3.title">Post Analytics</h3>
-              <p data-i18n="guide.post.s3.desc">Tap the <strong>📊</strong> icon on your post or tap ⋯ → <strong>View Analytics</strong> to see who viewed, liked, and saved your post. View counts are tracked automatically even if someone doesn't engage.</p>
-            </div>
-          </div>
-          <div class="guide-step">
-            <div class="step-num">04</div>
-            <div class="step-body">
-              <h3 data-i18n="guide.post.s4.title">Save Posts</h3>
-              <p data-i18n="guide.post.s4.desc">Tap the <strong>🔖</strong> bookmark icon on any post to save it. Access all saved posts from your Profile tab under <strong>Saved</strong>. You can also tap ⋯ → <strong>Save post</strong> from the menu.</p>
-            </div>
-          </div>
+          <div class="guide-step"><div class="step-num">01</div><div class="step-body"><h3>Create a Post</h3><p>Tap the <strong>+</strong> button. Share text, images, videos, audio, or a poll. Combine multiple types in one post.</p></div></div>
+          <div class="guide-step"><div class="step-num">02</div><div class="step-body"><h3>Use Hashtags &amp; Mentions</h3><p>Type <strong>#hashtag</strong> to tag topics. Use <strong>@username</strong> to mention and notify another user. Both are clickable and searchable.</p></div></div>
+          <div class="guide-step"><div class="step-num">03</div><div class="step-body"><h3>Post Analytics</h3><p>Tap ⋯ → <strong>View Analytics</strong> to see who viewed, liked, and saved your post. View counts are tracked automatically.</p></div></div>
+          <div class="guide-step"><div class="step-num">04</div><div class="step-body"><h3>Save Posts</h3><p>Tap the 🔖 bookmark icon on any post to save it. Access saved posts from your Profile under <strong>Saved</strong>.</p></div></div>
         </div>
       </div>
-
-      <!-- Ocean -->
       <div class="guide-panel" id="guide-ocean">
         <div class="guide-steps">
-          <div class="guide-step">
-            <div class="step-num">01</div>
-            <div class="step-body">
-              <h3 data-i18n="guide.ocean.s1.title">What is Ocean Mode?</h3>
-              <p data-i18n="guide.ocean.s1.desc">Ocean 🌊 is Squids' vertical video feed — similar to TikTok. It shows video posts from across the platform in a fullscreen, swipe-up experience. On mobile it's 2:3 portrait, on desktop it's 16:9 landscape.</p>
-            </div>
-          </div>
-          <div class="guide-step">
-            <div class="step-num">02</div>
-            <div class="step-body">
-              <h3 data-i18n="guide.ocean.s2.title">Navigate Ocean</h3>
-              <p data-i18n="guide.ocean.s2.desc">Swipe up or scroll to move to the next video. Each video auto-plays and loops. Tap anywhere to pause/play. The right sidebar has Like, Comment, Save, Share, and Mute controls.</p>
-            </div>
-          </div>
-          <div class="guide-step">
-            <div class="step-num">03</div>
-            <div class="step-body">
-              <h3 data-i18n="guide.ocean.s3.title">Get Featured in Ocean</h3>
-              <p data-i18n="guide.ocean.s3.desc">Post a video from the Create page. Any video post automatically appears in Ocean, sorted by newest first. The more engagement your video gets, the wider it spreads across feeds.</p>
-            </div>
-          </div>
+          <div class="guide-step"><div class="step-num">01</div><div class="step-body"><h3>What is Ocean Mode?</h3><p>Ocean 🌊 is Squids' vertical video feed. Fullscreen, swipe-up experience. 2:3 portrait on mobile, 16:9 on desktop.</p></div></div>
+          <div class="guide-step"><div class="step-num">02</div><div class="step-body"><h3>Navigate Ocean</h3><p>Swipe up or scroll to move to the next video. Tap anywhere to pause/play. The right sidebar has Like, Comment, Save, Share, and Mute.</p></div></div>
+          <div class="guide-step"><div class="step-num">03</div><div class="step-body"><h3>Get Featured in Ocean</h3><p>Post any video from the Create page. It automatically appears in Ocean, sorted by newest. More engagement = wider reach.</p></div></div>
         </div>
       </div>
-
-      <!-- Groups -->
       <div class="guide-panel" id="guide-groups">
         <div class="guide-steps">
-          <div class="guide-step">
-            <div class="step-num">01</div>
-            <div class="step-body">
-              <h3 data-i18n="guide.groups.s1.title">Join or Create a Group</h3>
-              <p data-i18n="guide.groups.s1.desc">Go to <strong>Groups</strong> from the sidebar or navigation. Browse existing communities and tap <strong>Join</strong>. For private groups, send a join request that the admin must approve. Create your own group with a name, description, and avatar.</p>
-            </div>
-          </div>
-          <div class="guide-step">
-            <div class="step-num">02</div>
-            <div class="step-body">
-              <h3 data-i18n="guide.groups.s2.title">Group Admin Tools</h3>
-              <p data-i18n="guide.groups.s2.desc">As a group owner or admin you can: upload a group avatar, invite members by username, remove members, promote members to admin, and accept or decline join requests for private groups.</p>
-            </div>
-          </div>
-          <div class="guide-step">
-            <div class="step-num">03</div>
-            <div class="step-body">
-              <h3 data-i18n="guide.groups.s3.title">Post in Groups</h3>
-              <p data-i18n="guide.groups.s3.desc">Once you're a member, the composer appears inside the group. Posts made in a group appear in both the group feed and your profile. Only members can post in private groups.</p>
-            </div>
-          </div>
+          <div class="guide-step"><div class="step-num">01</div><div class="step-body"><h3>Join or Create a Group</h3><p>Go to <strong>Groups</strong>. Browse communities and tap <strong>Join</strong>. For private groups, send a request. Create your own group with a name, description, and avatar.</p></div></div>
+          <div class="guide-step"><div class="step-num">02</div><div class="step-body"><h3>Group Admin Tools</h3><p>Invite members, remove members, promote to admin, and accept/decline join requests for private groups.</p></div></div>
+          <div class="guide-step"><div class="step-num">03</div><div class="step-body"><h3>Post in Groups</h3><p>Posts appear in both the group feed and your profile. Only members can post in private groups.</p></div></div>
         </div>
       </div>
-
-      <!-- Profile -->
       <div class="guide-panel" id="guide-profile">
         <div class="guide-steps">
-          <div class="guide-step">
-            <div class="step-num">01</div>
-            <div class="step-body">
-              <h3 data-i18n="guide.profile.s1.title">Edit Your Profile</h3>
-              <p data-i18n="guide.profile.s1.desc">Go to your profile and tap <strong>Edit Profile</strong>. Update your display name, username, bio (up to 160 characters), website, and location. Changing your username updates your profile URL automatically.</p>
-            </div>
-          </div>
-          <div class="guide-step">
-            <div class="step-num">02</div>
-            <div class="step-body">
-              <h3 data-i18n="guide.profile.s2.title">Upload Avatar & Cover</h3>
-              <p data-i18n="guide.profile.s2.desc">Tap the 📷 camera icon on your avatar or banner to upload new images. Avatars display as circles throughout the app. Banners appear at the top of your profile page.</p>
-            </div>
-          </div>
-          <div class="guide-step">
-            <div class="step-num">03</div>
-            <div class="step-body">
-              <h3 data-i18n="guide.profile.s3.title">Followers & Following</h3>
-              <p data-i18n="guide.profile.s3.desc">Tap the <strong>Followers</strong> or <strong>Following</strong> count on any profile to see the full list. If a profile is private, only 10 are shown to others — but the account owner can always see all.</p>
-            </div>
-          </div>
-          <div class="guide-step">
-            <div class="step-num">04</div>
-            <div class="step-body">
-              <h3 data-i18n="guide.profile.s4.title">Download Your Profile Card</h3>
-              <p data-i18n="guide.profile.s4.desc">Tap the ⬇️ download icon on your profile to generate a shareable profile card image. Share it on WhatsApp, other platforms, or anywhere else to promote your Squids page.</p>
-            </div>
-          </div>
+          <div class="guide-step"><div class="step-num">01</div><div class="step-body"><h3>Edit Your Profile</h3><p>Tap <strong>Edit Profile</strong>. Update your display name, username, bio (160 chars), website, and location.</p></div></div>
+          <div class="guide-step"><div class="step-num">02</div><div class="step-body"><h3>Upload Avatar &amp; Cover</h3><p>Tap the 📷 camera icon on your avatar or banner to upload new images.</p></div></div>
+          <div class="guide-step"><div class="step-num">03</div><div class="step-body"><h3>Download Profile Card</h3><p>Tap the ⬇️ icon to generate a shareable profile card. Share it on WhatsApp, X, and more.</p></div></div>
         </div>
       </div>
-
-      <!-- Privacy -->
       <div class="guide-panel" id="guide-privacy">
         <div class="guide-steps">
-          <div class="guide-step">
-            <div class="step-num">01</div>
-            <div class="step-body">
-              <h3 data-i18n="guide.privacy.s1.title">Privacy Settings</h3>
-              <p data-i18n="guide.privacy.s1.desc">Go to <strong>Settings → Privacy</strong> to control: who can see your followers list (private mode shows only 10 to others), whether your liked posts are visible, and whether strangers can message you.</p>
-            </div>
+          <div class="guide-step"><div class="step-num">01</div><div class="step-body"><h3>Privacy Settings</h3><p>Go to <strong>Settings → Privacy</strong>. Control who sees your followers, liked posts, and whether strangers can message you.</p></div></div>
+          <div class="guide-step"><div class="step-num">02</div><div class="step-body"><h3>Two-Factor Auth</h3><p>Squids auto-activates 2FA on unknown devices. A code is sent to your email — no setup needed.</p></div></div>
+          <div class="guide-step"><div class="step-num">03</div><div class="step-body"><h3>Block &amp; Report</h3><p>Tap ⋯ → <strong>Report</strong> to flag harmful content. Our team reviews all reports within 24 hours.</p></div></div>
+          <div class="guide-step"><div class="step-num">04</div><div class="step-body"><h3>POPIA Compliance</h3><p>Your data is processed lawfully, stored securely, never sold. See our <a href="https://policies.squids.co.za/privacy" target="_blank" rel="noopener">Privacy Policy</a>.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ TESTIMONIALS ══════════════════ -->
+<section class="testimonials-section">
+  <div class="section-inner">
+    <div class="section-label reveal">COMMUNITY VOICES</div>
+    <h2 class="section-title reveal reveal-delay-1">What Africans are saying</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial-card reveal reveal-delay-1">
+        <div class="test-quote">"</div>
+        <p class="test-text">Finally a social platform that gets us. The language support is incredible — I can post in Swahili and everyone understands. Ocean mode is addictive!</p>
+        <div class="test-author">
+          <div class="test-avatar" style="background:#14b49d;">AO</div>
+          <div>
+            <div class="test-name">Amara Osei</div>
+            <div class="test-location">🇬🇭 Accra, Ghana</div>
+            <div class="test-stars">★★★★★</div>
           </div>
-          <div class="guide-step">
-            <div class="step-num">02</div>
-            <div class="step-body">
-              <h3 data-i18n="guide.privacy.s2.title">Notification Controls</h3>
-              <p data-i18n="guide.privacy.s2.desc">Under <strong>Settings → Notifications</strong>, toggle on or off: likes, replies/comments, new followers, and direct messages. Changes save immediately to your account.</p>
-            </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal reveal-delay-2">
+        <div class="test-quote">"</div>
+        <p class="test-text">I've been on Twitter and Instagram for years but Squids feels like home. The groups feature helped me find my entire community in Nairobi.</p>
+        <div class="test-author">
+          <div class="test-avatar" style="background:#c026d3;">LN</div>
+          <div>
+            <div class="test-name">Leila Nkosi</div>
+            <div class="test-location">🇰🇪 Nairobi, Kenya</div>
+            <div class="test-stars">★★★★★</div>
           </div>
-          <div class="guide-step">
-            <div class="step-num">03</div>
-            <div class="step-body">
-              <h3 data-i18n="guide.privacy.s3.title">Block & Report</h3>
-              <p data-i18n="guide.privacy.s3.desc">Tap ⋯ on any post and choose <strong>Report</strong> to flag harmful content. Our team reviews all reports. Reported content is reviewed within 24 hours. Your safety is our priority.</p>
-            </div>
-          </div>
-          <div class="guide-step">
-            <div class="step-num">04</div>
-            <div class="step-body">
-              <h3 data-i18n="guide.privacy.s4.title">POPIA Compliance</h3>
-              <p data-i18n="guide.privacy.s4.desc">Squids complies with South Africa's POPIA (Protection of Personal Information Act). Your data is processed lawfully, stored securely, and never sold to third parties. See our Privacy Policy at policies.squids.co.za/privacy.</p>
-            </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal reveal-delay-3">
+        <div class="test-quote">"</div>
+        <p class="test-text">The post analytics blew me away. I can actually see who's engaging with my content. My small business has grown 3x since joining Squids.</p>
+        <div class="test-author">
+          <div class="test-avatar" style="background:#f59e0b;">KA</div>
+          <div>
+            <div class="test-name">Kwame Asante</div>
+            <div class="test-location">🇳🇬 Lagos, Nigeria</div>
+            <div class="test-stars">★★★★★</div>
           </div>
         </div>
       </div>
@@ -712,154 +592,284 @@
   </div>
 </section>
 
-<!-- ══════════════════ FOLLOW CTA ══════════════════ -->
-<section class="follow-cta">
+<!-- ══════════════════ FAQ ══════════════════ -->
+<section class="faq-section" id="faq">
   <div class="section-inner">
-    <div class="follow-card reveal">
-      <div class="follow-squid-anim">
-        <svg width="60" height="60" viewBox="0 0 72 72" fill="none">
-          <rect width="72" height="72" rx="18" fill="url(#sqG2)"/>
-          <defs>
-            <linearGradient id="sqG2" x1="0" y1="0" x2="72" y2="72">
-              <stop offset="0%" stop-color="#14b49d"/>
-              <stop offset="100%" stop-color="#059478"/>
-            </linearGradient>
-          </defs>
-          <circle cx="36" cy="27" r="13.5" fill="white"/>
-          <ellipse cx="36" cy="41.5" rx="9.5" ry="6" fill="white" opacity=".88"/>
-          <ellipse cx="22.5" cy="51.5" rx="3.8" ry="2.4" fill="white" opacity=".65" transform="rotate(-25 22.5 51.5)"/>
-          <ellipse cx="29" cy="55.5" rx="3.8" ry="2.4" fill="white" opacity=".72" transform="rotate(-10 29 55.5)"/>
-          <ellipse cx="36" cy="57" rx="3.8" ry="2.4" fill="white" opacity=".78"/>
-          <ellipse cx="43" cy="55.5" rx="3.8" ry="2.4" fill="white" opacity=".72" transform="rotate(10 43 55.5)"/>
-          <ellipse cx="49.5" cy="51.5" rx="3.8" ry="2.4" fill="white" opacity=".65" transform="rotate(25 49.5 51.5)"/>
-          <circle cx="30.5" cy="24" r="2.8" fill="#14b49d"/>
-          <circle cx="41.5" cy="24" r="2.8" fill="#14b49d"/>
-          <circle cx="30.5" cy="23.2" r="1.4" fill="white"/>
-          <circle cx="41.5" cy="23.2" r="1.4" fill="white"/>
-        </svg>
+    <div class="section-label reveal">FREQUENTLY ASKED</div>
+    <h2 class="section-title reveal reveal-delay-1">Questions &amp; Answers</h2>
+    <div class="faq-list">
+      <div class="faq-item reveal">
+        <button class="faq-question">What is Squids?</button>
+        <div class="faq-answer"><p>Squids is Africa's premier social media platform. Share stories, connect with communities, discover creators and grow together across the continent. Available on any device — no app download needed.</p></div>
       </div>
-      <div class="follow-content">
-        <h2 data-i18n="follow.title">Follow us on Squids</h2>
-        <p data-i18n="follow.desc">Stay updated with platform news, tips, featured creators, and announcements. Join the official Squids community account.</p>
-        <a href="https://app.squids.co.za/profile/squids" class="btn-follow" target="_blank" rel="noopener">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-          <span data-i18n="follow.btn">Follow @squids</span>
-        </a>
+      <div class="faq-item reveal">
+        <button class="faq-question">How do I sign up?</button>
+        <div class="faq-answer"><p>Go to <a href="https://app.squids.co.za" target="_blank" rel="noopener">app.squids.co.za</a> and tap Sign Up. Enter your email, choose a username, set a password, and verify your email. The whole process takes under 2 minutes.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question">Is Squids free?</button>
+        <div class="faq-answer"><p>Yes! Squids is and always will be 100% free. No subscriptions, no ads in your feed, no selling your data. We believe everyone in Africa deserves access to a great social platform.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question">What is Ocean Mode?</button>
+        <div class="faq-answer"><p>Ocean 🌊 is Squids' vertical video feed — similar to TikTok. It shows video posts from across Africa in a fullscreen swipe-up experience. Any video you post automatically appears in Ocean.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question">Is Squids secure?</button>
+        <div class="faq-answer"><p>Absolutely. Squids has automatic two-factor authentication, POPIA compliance, IP ban protection, and content moderation. Your data is never sold to third parties. See our <a href="https://policies.squids.co.za/privacy" target="_blank" rel="noopener">Privacy Policy</a>.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question">Which countries does Squids support?</button>
+        <div class="faq-answer"><p>Squids is available in all 54 African countries. We support English, French, Arabic, Swahili, and Amharic — with automatic language detection based on your location.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question">Is a mobile app available?</button>
+        <div class="faq-answer"><p>Squids works perfectly in your mobile browser right now at app.squids.co.za. Native iOS and Android apps are coming soon. You can add Squids to your home screen for a native-like experience.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question">Who created Squids?</button>
+        <div class="faq-answer"><p>Squids was created by <strong>Vuyani Siyanda Vilakazi</strong>, a South African developer and founder of <a href="https://www.tyvila.online" target="_blank" rel="noopener">TyVila.Online</a>. Built in South Africa, for Africa.</p></div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ══════════════════ ABOUT ══════════════════ -->
+<!-- ══════════════════ AFRICA MAP ══════════════════ -->
+<section class="map-section" id="map">
+  <div class="section-inner">
+    <div class="section-label reveal">LANGUAGES OF AFRICA</div>
+    <h2 class="section-title reveal reveal-delay-1">One continent, many voices</h2>
+    <p class="section-sub reveal reveal-delay-2">Squids supports the languages that matter most across Africa. Hover over any country to see which language is supported.</p>
+    <div class="map-container reveal reveal-delay-2">
+      <div class="map-legend">
+        <div class="legend-item"><div class="legend-dot" style="background:#14b49d"></div><span>English</span></div>
+        <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div><span>Français</span></div>
+        <div class="legend-item"><div class="legend-dot" style="background:#3b82f6"></div><span>عربي</span></div>
+        <div class="legend-item"><div class="legend-dot" style="background:#ec4899"></div><span>Kiswahili</span></div>
+        <div class="legend-item"><div class="legend-dot" style="background:#8b5cf6"></div><span>አማርኛ</span></div>
+      </div>
+      <div class="africa-map-wrap">
+        <svg id="africaMap" viewBox="0 0 900 1000" fill="none" xmlns="http://www.w3.org/2000/svg" class="africa-svg">
+          <defs>
+            <linearGradient id="multiEnFr" x1="0" y1="0" x2="1" y2="1"><stop offset="50%" stop-color="#14b49d"/><stop offset="50%" stop-color="#f59e0b"/></linearGradient>
+            <linearGradient id="multiArFr" x1="0" y1="0" x2="1" y2="1"><stop offset="50%" stop-color="#3b82f6"/><stop offset="50%" stop-color="#f59e0b"/></linearGradient>
+            <linearGradient id="multiEnSw" x1="0" y1="0" x2="1" y2="1"><stop offset="50%" stop-color="#14b49d"/><stop offset="50%" stop-color="#ec4899"/></linearGradient>
+            <linearGradient id="multiArAm" x1="0" y1="0" x2="1" y2="1"><stop offset="50%" stop-color="#3b82f6"/><stop offset="50%" stop-color="#8b5cf6"/></linearGradient>
+          </defs>
+          <!-- North Africa -->
+          <path class="country" d="M210 105 L175 110 L160 140 L155 175 L170 195 L200 200 L230 185 L245 160 L240 130 L225 110 Z" data-name="Morocco" data-support="Arabic" fill="#3b82f6"/>
+          <path class="country" d="M245 95 L280 88 L340 92 L380 100 L395 130 L385 165 L370 200 L330 215 L290 220 L250 215 L230 195 L230 165 L245 140 L245 110 Z" data-name="Algeria" data-support="Arabic" fill="#3b82f6"/>
+          <path class="country" d="M380 90 L400 85 L415 100 L420 130 L405 145 L385 140 L378 115 Z" data-name="Tunisia" data-support="Arabic" fill="#3b82f6"/>
+          <path class="country" d="M415 90 L480 88 L530 95 L545 130 L540 175 L525 210 L490 220 L455 218 L420 210 L405 175 L410 140 L418 110 Z" data-name="Libya" data-support="Arabic" fill="#3b82f6"/>
+          <path class="country" d="M545 90 L610 88 L640 100 L645 130 L630 165 L600 185 L565 182 L545 165 L535 135 L538 108 Z" data-name="Egypt" data-support="Arabic" fill="#3b82f6"/>
+          <!-- West Africa -->
+          <path class="country" d="M155 195 L200 210 L230 200 L250 222 L245 265 L215 280 L185 278 L155 265 L138 240 L140 218 Z" data-name="Mauritania" data-support="Arabic" fill="#3b82f6"/>
+          <path class="country" d="M250 215 L295 222 L340 218 L370 208 L380 240 L375 275 L355 298 L320 310 L280 308 L255 290 L245 265 L248 240 Z" data-name="Mali" data-support="Français" fill="#f59e0b"/>
+          <path class="country" d="M375 200 L420 210 L460 215 L490 220 L505 250 L500 285 L475 305 L435 315 L395 312 L365 298 L360 270 L370 245 Z" data-name="Niger" data-support="Français" fill="#f59e0b"/>
+          <path class="country" d="M138 260 L155 265 L170 280 L162 295 L148 300 L133 288 L128 272 Z" data-name="Senegal" data-support="Français" fill="#f59e0b"/>
+          <path class="country" d="M148 300 L172 295 L185 308 L185 328 L168 338 L148 332 L138 318 L135 302 Z" data-name="Guinea" data-support="Français" fill="#f59e0b"/>
+          <path class="country" d="M138 332 L158 338 L162 355 L148 360 L134 348 Z" data-name="Sierra Leone" data-support="English" fill="#14b49d"/>
+          <path class="country" d="M158 338 L180 332 L195 345 L192 362 L175 370 L158 360 Z" data-name="Liberia" data-support="English" fill="#14b49d"/>
+          <path class="country" d="M185 308 L218 305 L238 315 L240 338 L228 355 L205 358 L190 345 L185 330 Z" data-name="Côte d'Ivoire" data-support="Français" fill="#f59e0b"/>
+          <path class="country" d="M238 308 L268 308 L278 328 L272 355 L255 365 L240 355 L235 335 Z" data-name="Ghana" data-support="English" fill="#14b49d"/>
+          <path class="country" d="M270 278 L310 278 L325 295 L318 318 L295 325 L268 318 L260 300 Z" data-name="Burkina Faso" data-support="Français" fill="#f59e0b"/>
+          <path class="country" d="M278 318 L293 318 L298 342 L290 362 L278 358 L272 338 Z" data-name="Togo" data-support="Français" fill="#f59e0b"/>
+          <path class="country" d="M298 308 L320 308 L328 328 L322 355 L305 358 L295 340 L295 318 Z" data-name="Benin" data-support="Français" fill="#f59e0b"/>
+          <path class="country" d="M320 298 L370 298 L395 315 L405 345 L395 375 L368 385 L338 380 L318 362 L308 332 L318 308 Z" data-name="Nigeria" data-support="English" fill="#14b49d"/>
+          <path class="country" d="M435 220 L490 222 L520 245 L525 280 L510 315 L480 330 L445 325 L420 305 L418 272 L425 240 Z" data-name="Chad" data-support="Arabic,Français" fill="url(#multiArFr)"/>
+          <!-- Central Africa -->
+          <path class="country" d="M368 378 L395 362 L418 370 L425 398 L415 425 L392 435 L368 428 L355 405 L358 385 Z" data-name="Cameroon" data-support="English,Français" fill="url(#multiEnFr)"/>
+          <path class="country" d="M420 370 L465 365 L505 372 L515 398 L505 425 L475 438 L442 432 L418 418 L415 392 Z" data-name="Central African Republic" data-support="Français" fill="#f59e0b"/>
+          <path class="country" d="M415 435 L448 432 L500 438 L535 445 L558 475 L555 515 L535 545 L498 558 L462 555 L428 540 L405 512 L400 478 L408 452 Z" data-name="DR Congo" data-support="Français" fill="#f59e0b"/>
+          <path class="country" d="M368 428 L400 420 L408 445 L402 475 L378 480 L358 462 L352 440 Z" data-name="Republic of Congo" data-support="Français" fill="#f59e0b"/>
+          <path class="country" d="M348 402 L368 398 L372 425 L360 445 L340 438 L335 418 Z" data-name="Gabon" data-support="Français" fill="#f59e0b"/>
+          <!-- East Africa -->
+          <path class="country" d="M528 188 L580 185 L618 192 L640 220 L638 265 L620 298 L585 310 L548 305 L528 278 L520 245 L520 215 Z" data-name="Sudan" data-support="Arabic" fill="#3b82f6"/>
+          <path class="country" d="M515 308 L548 305 L580 312 L592 338 L585 365 L555 375 L522 368 L502 345 L505 320 Z" data-name="South Sudan" data-support="English" fill="#14b49d"/>
+          <path class="country" d="M590 230 L630 225 L668 240 L685 268 L678 300 L655 318 L620 322 L588 310 L570 285 L572 255 Z" data-name="Ethiopia" data-support="Amharic" fill="#8b5cf6"/>
+          <path class="country" d="M618 190 L648 182 L668 198 L660 225 L640 228 L620 215 Z" data-name="Eritrea" data-support="Arabic,Amharic" fill="url(#multiArAm)"/>
+          <path class="country" d="M660 238 L698 228 L730 250 L738 285 L720 328 L695 348 L665 340 L648 312 L648 278 Z" data-name="Somalia" data-support="Arabic" fill="#3b82f6"/>
+          <path class="country" d="M555 368 L585 362 L605 378 L608 402 L590 415 L562 412 L545 395 L548 375 Z" data-name="Uganda" data-support="English,Kiswahili" fill="url(#multiEnSw)"/>
+          <path class="country" d="M590 338 L622 325 L658 338 L668 368 L655 398 L628 415 L600 410 L580 390 L582 362 Z" data-name="Kenya" data-support="English,Kiswahili" fill="url(#multiEnSw)"/>
+          <path class="country" d="M560 418 L600 415 L635 422 L655 450 L648 488 L622 508 L585 510 L558 490 L545 462 L548 435 Z" data-name="Tanzania" data-support="Kiswahili,English" fill="url(#multiEnSw)"/>
+          <!-- Southern Africa -->
+          <path class="country" d="M365 480 L400 478 L428 488 L440 518 L432 552 L408 568 L378 562 L358 540 L352 510 L355 488 Z" data-name="Angola" data-support="English" fill="#94a3b8"/>
+          <path class="country" d="M455 518 L498 515 L532 525 L545 555 L535 585 L508 598 L478 595 L452 578 L442 552 L442 528 Z" data-name="Zambia" data-support="English" fill="#14b49d"/>
+          <path class="country" d="M558 498 L575 498 L582 522 L572 548 L558 552 L545 535 L545 510 Z" data-name="Malawi" data-support="English" fill="#14b49d"/>
+          <path class="country" d="M478 558 L510 558 L535 562 L538 590 L520 610 L495 615 L472 600 L460 578 Z" data-name="Zimbabwe" data-support="English" fill="#14b49d"/>
+          <path class="country" d="M428 582 L460 578 L475 602 L470 632 L448 648 L420 638 L405 612 L408 588 Z" data-name="Botswana" data-support="English" fill="#14b49d"/>
+          <path class="country" d="M370 570 L408 565 L408 598 L398 630 L375 655 L350 648 L332 622 L332 592 L348 572 Z" data-name="Namibia" data-support="English" fill="#14b49d"/>
+          <path class="country" d="M375 658 L408 640 L450 650 L478 668 L490 700 L480 730 L455 748 L420 752 L388 740 L365 715 L355 688 L360 665 Z" data-name="South Africa 🇿🇦" data-support="English" fill="#0a9180"/>
+          <path class="country" d="M428 705 L442 700 L450 715 L440 728 L425 726 L418 712 Z" data-name="Lesotho" data-support="English" fill="#14b49d"/>
+          <path class="country" d="M645 498 L665 488 L688 505 L695 538 L685 572 L665 590 L642 580 L628 552 L630 520 Z" data-name="Madagascar" data-support="Français" fill="#f59e0b"/>
+        </svg>
+        <div class="map-tooltip" id="mapTooltip" style="display:none;">
+          <div class="tooltip-name" id="tooltipName"></div>
+          <div class="tooltip-lang" id="tooltipLang"></div>
+        </div>
+      </div>
+      <div class="map-cta reveal">
+        <p>Squids is available in every African country. No matter where you are on the continent, we speak your language.</p>
+        <a href="https://app.squids.co.za" class="btn-primary-sm" target="_blank" rel="noopener">Join from your country →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FEEDBACK SECTION ══════════════════════════════════════ -->
+<section class="feedback-section" id="feedback">
+  <div class="section-inner">
+    <div class="section-label reveal">YOUR VOICE MATTERS</div>
+    <h2 class="section-title reveal reveal-delay-1">Send Feedback to @squids</h2>
+    <p class="section-sub reveal reveal-delay-2">No login needed. Your feedback goes directly to our team and the @squids account. Help us make Squids better for Africa.</p>
+
+    <div class="feedback-wrap reveal reveal-delay-3">
+      <form onsubmit="SQ.submitFeedback(event)">
+        <div class="feed-field">
+          <label class="feed-label">Your Name (optional)</label>
+          <input name="feedName" class="feed-inp" type="text" placeholder="How should we call you?" maxlength="80"/>
+        </div>
+        <div class="feed-field">
+          <label class="feed-label">Feedback Type</label>
+          <select name="feedType" class="feed-select">
+            <option value="general">💬 General Feedback</option>
+            <option value="bug">🐛 Bug Report</option>
+            <option value="feature">💡 Feature Request</option>
+            <option value="praise">🎉 Praise / Compliment</option>
+            <option value="complaint">😤 Complaint</option>
+            <option value="other">📝 Other</option>
+          </select>
+        </div>
+        <div class="feed-field">
+          <label class="feed-label">Your Message *</label>
+          <textarea name="feedMsg" class="feed-textarea" placeholder="Tell us what you think, what's broken, or what you'd love to see..." required minlength="5" maxlength="2000"></textarea>
+        </div>
+        <button type="submit" class="feed-submit-btn">Send Feedback →</button>
+        <p style="font-size:12px;color:rgba(255,255,255,.3);margin-top:12px;text-align:center;">Or email us directly: <a href="mailto:support@squids.co.za" style="color:#14b49d;">support@squids.co.za</a></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ══ ABOUT / TYVILA ════════════════════════════════════════ -->
 <section class="about" id="about">
   <div class="section-inner">
-    <div class="section-label reveal" data-i18n="about.label">THE STORY</div>
-    <h2 class="section-title reveal reveal-delay-1" data-i18n="about.title">Built in Africa, for Africa</h2>
+    <div class="section-label reveal">THE STORY</div>
+    <h2 class="section-title reveal reveal-delay-1">Built in Africa, for Africa</h2>
 
     <div class="about-grid">
       <div class="about-text reveal reveal-delay-1">
-        <p data-i18n="about.p1">Squids was created by <strong>Vuyani Siyanda Vilakazi</strong>, a South African developer and founder of <a href="https://www.tyvila.online" target="_blank" rel="noopener">TyVila.Online</a>. The vision was simple: build a social platform that truly understands Africa — its languages, its communities, its creators, and its culture.</p>
-        <p data-i18n="about.p2">Most global social platforms treat Africa as an afterthought. Squids puts Africa first. From automatic language detection based on your location, to Ocean mode built for mobile-first users, to POPIA compliance for South African privacy laws — every decision was made with African users in mind.</p>
-        <p data-i18n="about.p3">TyVila.Online is the technology company behind Squids, building digital tools that empower Africans online. Squids is their flagship product and the beginning of a larger ecosystem.</p>
-        <div class="about-founder">
-          <div class="founder-avatar">
-            <img src="https://www.tyvila.online/favicon.ico" alt="TyVila.Online" width="48" height="48" loading="lazy"/>
-          </div>
+        <p>Squids was created by <strong>Vuyani Siyanda Vilakazi</strong>, a South African developer and founder of <a href="https://www.tyvila.online" target="_blank" rel="noopener">TyVila.Online</a>. The vision: build a social platform that truly understands Africa — its languages, its communities, its creators, and its culture.</p>
+        <p>Most global platforms treat Africa as an afterthought. Squids puts Africa first. From automatic language detection, to Ocean mode built for mobile-first users, to POPIA compliance — every decision was made with African users in mind.</p>
+
+        <!-- TyVila founder section -->
+        <div class="founder-section">
+          <img src="https://www.tyvila.online/cdn/vv.png" alt="Vuyani Siyanda Vilakazi — Founder of TyVila.Online and Squids" class="founder-img" width="80" height="80" loading="lazy"/>
           <div>
-            <p class="founder-name">Vuyani Siyanda Vilakazi</p>
-            <p class="founder-title" data-i18n="about.founderTitle">Founder & Developer, TyVila.Online</p>
-            <a href="https://www.tyvila.online" target="_blank" rel="noopener" class="founder-link">www.tyvila.online →</a>
+            <div class="founder-badge">
+              <span class="tyvila-t-anim" data-size="18" style="display:inline-flex;align-items:center;"></span>
+              TyVila.Online
+            </div>
+            <p style="font-size:18px;font-weight:800;color:#fff;margin:0 0 4px;">Vuyani Siyanda Vilakazi</p>
+            <p style="font-size:14px;color:rgba(255,255,255,.5);margin:0 0 12px;">Founder &amp; Developer · TyVila.Online · South Africa 🇿🇦</p>
+            <div class="founder-socials">
+              <a href="https://www.tyvila.online" target="_blank" rel="noopener" class="founder-social-btn">🌐 tyvila.online</a>
+              <a href="https://app.squids.co.za/profile/squids" target="_blank" rel="noopener" class="founder-social-btn">🦑 @squids</a>
+              <a href="mailto:support@squids.co.za" class="founder-social-btn">📧 Email</a>
+            </div>
           </div>
         </div>
       </div>
 
       <div class="about-values reveal reveal-delay-2">
-        <div class="value-card">
-          <div class="value-icon">🌍</div>
-          <h4 data-i18n="about.v1.title">Africa First</h4>
-          <p data-i18n="about.v1.desc">Built by an African developer, for African users. Every feature is designed with our context in mind.</p>
-        </div>
-        <div class="value-card">
-          <div class="value-icon">🔓</div>
-          <h4 data-i18n="about.v2.title">Open & Free</h4>
-          <p data-i18n="about.v2.desc">No paywalls, no subscriptions. Squids is free for everyone, always.</p>
-        </div>
-        <div class="value-card">
-          <div class="value-icon">🛡️</div>
-          <h4 data-i18n="about.v3.title">Privacy Focused</h4>
-          <p data-i18n="about.v3.desc">POPIA compliant, 2FA protected, no data selling. Your information stays yours.</p>
-        </div>
-        <div class="value-card">
-          <div class="value-icon">🚀</div>
-          <h4 data-i18n="about.v4.title">Constantly Improving</h4>
-          <p data-i18n="about.v4.desc">Squids evolves constantly based on community feedback. New features ship regularly.</p>
-        </div>
+        <div class="value-card"><div class="value-icon">🌍</div><h4>Africa First</h4><p>Built by an African developer, for African users. Every feature is designed with our context in mind.</p></div>
+        <div class="value-card"><div class="value-icon">🔓</div><h4>Open &amp; Free</h4><p>No paywalls, no subscriptions. Squids is free for everyone, always.</p></div>
+        <div class="value-card"><div class="value-icon">🛡️</div><h4>Privacy Focused</h4><p>POPIA compliant, 2FA protected, no data selling. Your information stays yours.</p></div>
+        <div class="value-card"><div class="value-icon">🚀</div><h4>Constantly Improving</h4><p>Squids evolves constantly based on community feedback. New features ship regularly.</p></div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ══════════════════ FINAL CTA ══════════════════ -->
+<!-- ══ FINAL CTA ══════════════════════════════════════════════ -->
 <section class="final-cta">
   <div class="final-cta-inner">
     <div class="final-blob"></div>
-    <h2 class="reveal" data-i18n="cta.title">Ready to join Africa's platform?</h2>
-    <p class="reveal reveal-delay-1" data-i18n="cta.sub">Thousands of Africans are already sharing, connecting, and growing on Squids. Your community is waiting.</p>
+    <h2 class="reveal">Ready to join Africa's platform?</h2>
+    <p class="reveal reveal-delay-1">Thousands of Africans are already sharing, connecting, and growing on Squids. Your community is waiting.</p>
     <div class="final-actions reveal reveal-delay-2">
-      <a href="https://app.squids.co.za" class="btn-primary-hero big" target="_blank" rel="noopener" data-i18n="cta.btn">Open Squids Now →</a>
+      <a href="https://app.squids.co.za" class="btn-primary-hero big" target="_blank" rel="noopener">Open Squids Now →</a>
+      <a href="pages/download.html" class="btn-secondary-hero" style="text-decoration:none;">📱 Get the App</a>
     </div>
-    <p class="final-note reveal reveal-delay-3" data-i18n="cta.note">Works on all devices • No download required • 100% free</p>
+    <p class="final-note reveal reveal-delay-3">Works on all devices · No download required · 100% free · 54 African nations</p>
   </div>
 </section>
 
 <!-- ══════════════════ FOOTER ══════════════════ -->
 <footer class="footer">
   <div class="footer-inner">
+    <!-- Newsletter / app update signup -->
+    <div class="footer-newsletter">
+      <p>📱 <strong>Native app coming soon!</strong> Be the first to know when the iOS &amp; Android apps launch.</p>
+      <a href="pages/download.html">Get notified →</a>
+    </div>
+
     <div class="footer-brand">
       <a href="#" class="nav-logo footer-logo">
         <svg width="30" height="30" viewBox="0 0 72 72" fill="none">
-          <rect width="72" height="72" rx="18" fill="url(#sqGF)"/>
-          <defs><linearGradient id="sqGF" x1="0" y1="0" x2="72" y2="72"><stop offset="0%" stop-color="#14b49d"/><stop offset="100%" stop-color="#059478"/></linearGradient></defs>
+          <defs><linearGradient id="sqGF2" x1="0" y1="0" x2="72" y2="72"><stop stop-color="#c026d3"/><stop offset=".5" stop-color="#7c3aed"/><stop offset="1" stop-color="#14b49d"/></linearGradient></defs>
+          <rect width="72" height="72" rx="18" fill="url(#sqGF2)"/>
           <circle cx="36" cy="27" r="13.5" fill="white"/>
           <ellipse cx="36" cy="41.5" rx="9.5" ry="6" fill="white" opacity=".88"/>
-          <ellipse cx="22.5" cy="51.5" rx="3.8" ry="2.4" fill="white" opacity=".65" transform="rotate(-25 22.5 51.5)"/>
           <ellipse cx="36" cy="57" rx="3.8" ry="2.4" fill="white" opacity=".78"/>
-          <ellipse cx="49.5" cy="51.5" rx="3.8" ry="2.4" fill="white" opacity=".65" transform="rotate(25 49.5 51.5)"/>
-          <circle cx="30.5" cy="24" r="2.8" fill="#14b49d"/>
-          <circle cx="41.5" cy="24" r="2.8" fill="#14b49d"/>
+          <circle cx="30.5" cy="24" r="2.8" fill="#c026d3"/>
+          <circle cx="41.5" cy="24" r="2.8" fill="#c026d3"/>
           <circle cx="30.5" cy="23.2" r="1.4" fill="white"/>
           <circle cx="41.5" cy="23.2" r="1.4" fill="white"/>
         </svg>
         <span class="nav-logo-text">Squids</span>
       </a>
-      <p class="footer-tagline" data-i18n="footer.tagline">Africa's Social Platform</p>
+      <p class="footer-tagline">Africa's Social Platform</p>
       <p class="footer-by">A <a href="https://www.tyvila.online" target="_blank" rel="noopener">TyVila.Online</a> product</p>
+      <div class="tyvila-t-anim" data-size="32" style="margin-top:10px;"></div>
     </div>
 
     <div class="footer-links">
       <div class="footer-col">
-        <h5 data-i18n="footer.app">App</h5>
-        <a href="https://app.squids.co.za" target="_blank" rel="noopener" data-i18n="footer.openApp">Open App</a>
+        <h5>App</h5>
+        <a href="https://app.squids.co.za" target="_blank" rel="noopener">Open App</a>
         <a href="https://app.squids.co.za/profile/squids" target="_blank" rel="noopener">@squids</a>
-        <a href="#features" data-i18n="footer.features">Features</a>
-        <a href="#guide" data-i18n="footer.guide">Guide</a>
+        <a href="#features">Features</a>
+        <a href="#guide">Guide</a>
+        <a href="pages/guide.html">Full Guide</a>
+        <a href="pages/download.html">Download</a>
       </div>
       <div class="footer-col">
-        <h5 data-i18n="footer.legal">Legal</h5>
-        <a href="https://policies.squids.co.za/terms" target="_blank" rel="noopener" data-i18n="footer.terms">Terms of Service</a>
-        <a href="https://policies.squids.co.za/privacy" target="_blank" rel="noopener" data-i18n="footer.privacy">Privacy Policy</a>
-        <a href="https://policies.squids.co.za/help" target="_blank" rel="noopener" data-i18n="footer.help">Help Centre</a>
-      </div>
-      <div class="footer-col">
-        <h5 data-i18n="footer.company">Company</h5>
+        <h5>Company</h5>
+        <a href="pages/about.html">About Squids</a>
         <a href="https://www.tyvila.online" target="_blank" rel="noopener">TyVila.Online</a>
+        <a href="#feedback">Send Feedback</a>
         <a href="mailto:support@squids.co.za">support@squids.co.za</a>
+      </div>
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <a href="https://policies.squids.co.za/terms" target="_blank" rel="noopener">Terms of Service</a>
+        <a href="https://policies.squids.co.za/privacy" target="_blank" rel="noopener">Privacy Policy</a>
+        <a href="https://policies.squids.co.za/help" target="_blank" rel="noopener">Help Centre</a>
+        <a href="pages/sitemap.html">Sitemap</a>
+      </div>
+      <div class="footer-col">
+        <h5>Explore</h5>
+        <a href="#demo" onclick="SQ.openDemo('feed')">Try Demo</a>
+        <a href="#faq">FAQ</a>
+        <a href="#map">Africa Map</a>
+        <a href="#feedback">Feedback</a>
       </div>
     </div>
   </div>
 
   <div class="footer-bottom">
-    <p>© <span id="year"></span> TyVila.Online · Created by Vuyani Siyanda Vilakazi</p>
+    <p>© <span id="year"></span> TyVila.Online · Created by Vuyani Siyanda Vilakazi · South Africa 🇿🇦</p>
     <div class="footer-langs">
       <button onclick="setLang('en')">EN</button>
       <button onclick="setLang('fr')">FR</button>
@@ -870,7 +880,41 @@
   </div>
 </footer>
 
+<!-- ══ DEMO MODAL ═══════════════════════════════════════════ -->
+<div id="demoModal" role="dialog" aria-modal="true" aria-label="Squids App Demo">
+  <div class="demo-modal-inner">
+    <div class="demo-modal-header">
+      <h3>🦑 Squids Live Demo</h3>
+      <button class="demo-close-btn" onclick="SQ.closeDemo()" aria-label="Close demo">✕</button>
+    </div>
+    <div class="demo-tabs">
+      <button class="demo-tab active" onclick="document.getElementById('demoFrame').src='https://app.squids.co.za/?demo=1';this.parentElement.querySelectorAll('.demo-tab').forEach(t=>t.classList.remove('active'));this.classList.add('active')">🏠 Feed</button>
+      <button class="demo-tab" onclick="document.getElementById('demoFrame').src='https://app.squids.co.za/ocean?demo=1';this.parentElement.querySelectorAll('.demo-tab').forEach(t=>t.classList.remove('active'));this.classList.add('active')">🌊 Ocean</button>
+      <button class="demo-tab" onclick="document.getElementById('demoFrame').src='https://app.squids.co.za/explore?demo=1';this.parentElement.querySelectorAll('.demo-tab').forEach(t=>t.classList.remove('active'));this.classList.add('active')">🔭 Explore</button>
+      <button class="demo-tab" onclick="document.getElementById('demoFrame').src='https://app.squids.co.za/profile/squids';this.parentElement.querySelectorAll('.demo-tab').forEach(t=>t.classList.remove('active'));this.classList.add('active')">🦑 @squids</button>
+    </div>
+    <iframe id="demoFrame" src="about:blank" title="Squids App Demo" allow="autoplay; fullscreen" sandbox="allow-scripts allow-same-origin allow-forms allow-popups"></iframe>
+    <div class="demo-footer">
+      <p>This is the real app — browse freely!</p>
+      <a href="https://app.squids.co.za" class="demo-open-btn" target="_blank" rel="noopener">Open Full App →</a>
+    </div>
+  </div>
+</div>
+
+<!-- ══ COOKIE BANNER ════════════════════════════════════════ -->
+<div id="cookieBanner" role="alert">
+  <p>We use cookies to enhance your experience and analyse site traffic. <a href="https://policies.squids.co.za/privacy" target="_blank" rel="noopener">Privacy Policy</a></p>
+  <button class="cookie-accept" onclick="SQ.acceptCookies()">Accept</button>
+</div>
+
+<!-- ══ BACK TO TOP ══════════════════════════════════════════ -->
+<button id="backTop" aria-label="Back to top">↑</button>
+
+<!-- ══ SCRIPTS ══════════════════════════════════════════════ -->
+<script src="js/seo-schema.js"></script>
+<script src="js/auth.js"></script>
 <script src="js/i18n.js"></script>
 <script src="js/main.js"></script>
+<script src="js/animations.js"></script>
 </body>
 </html>
