@@ -13,21 +13,51 @@
     </image:image>
     <image:image>
       <image:loc>https://www.tyvila.online/cdn/squids-logo-512.png</image:loc>
-      <image:title>Squids Logo</image:title>
+      <image:title>Squids Logo — Purple</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.tyvila.online/cdn/vv.png</image:loc>
-      <image:title>Vuyani Siyanda Vilakazi — Founder of Squids &amp; TyVila.Online</image:title>
+      <image:title>Vuyani Siyanda Vilakazi — Founder of Squids and TyVila.Online</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://squids.co.za/pages/about.html</loc>
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://www.tyvila.online/cdn/vv.png</image:loc>
+      <image:title>Vuyani Siyanda Vilakazi — Founder TyVila.Online</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://squids.co.za/pages/features.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.tyvila.online/cdn/squids-og.png</image:loc>
+      <image:title>Squids Features — Ocean Mode, Groups, Analytics and More</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://squids.co.za/pages/guide.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://squids.co.za/pages/creators.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tyvila.online/cdn/squids-og.png</image:loc>
+      <image:title>Squids for African Creators — Grow Your Audience</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://squids.co.za/pages/connect.html</loc>
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -36,12 +66,24 @@
     <loc>https://squids.co.za/pages/download.html</loc>
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://squids.co.za/pages/changelog.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://squids.co.za/pages/press.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://squids.co.za/pages/sitemap.html</loc>
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
+    <priority>0.3</priority>
   </url>
 </urlset>
