@@ -61,10 +61,11 @@
     entries.forEach(function (entry) {
       if (entry.isIntersecting) {
         entry.target.classList.add('revealed');
+        entry.target.classList.add('visible');
         observer.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+  }, { threshold: 0.08, rootMargin: '0px 0px -20px 0px' });
   revealEls.forEach(function (el) { observer.observe(el); });
 
   // ── Animated counters ────────────────────────────────────────
@@ -577,6 +578,21 @@
       });
     }
   };
+
+  // ── Immediately reveal above-fold elements ───────────────────
+  // Elements in the hero/viewport on first load won't be seen by
+  // IntersectionObserver unless we trigger them right away
+  function revealAboveFold() {
+    document.querySelectorAll('.reveal').forEach(function (el) {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight + 100) {
+        el.classList.add('visible');
+        el.classList.add('revealed');
+      }
+    });
+  }
+  revealAboveFold();
+  window.addEventListener('load', revealAboveFold);
 
   console.log('%c🦑 Squids.co.za | Africa\'s Social Platform', 'color:#14b49d;font-size:16px;font-weight:bold;');
   console.log('%cBuilt by TyVila.Online — Vuyani Siyanda Vilakazi', 'color:#888;font-size:12px;');

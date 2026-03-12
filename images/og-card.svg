@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#04040a"/>
+      <stop offset="100%" style="stop-color:#0a0a14"/>
+    </linearGradient>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c026d3"/>
+      <stop offset="50%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#14b49d"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="30%" cy="40%" r="50%">
+      <stop offset="0%" style="stop-color:#c026d3;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#c026d3;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="70%" cy="60%" r="50%">
+      <stop offset="0%" style="stop-color:#14b49d;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#14b49d;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow1)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+  <!-- Grid lines -->
+  <g opacity="0.04" stroke="#14b49d" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="360" x2="1200" y2="360"/>
+    <line x1="0" y1="420" x2="1200" y2="420"/>
+    <line x1="0" y1="480" x2="1200" y2="480"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+    <line x1="0" y1="600" x2="1200" y2="600"/>
+    <line x1="60" y1="0" x2="60" y2="630"/>
+    <line x1="120" y1="0" x2="120" y2="630"/>
+    <line x1="180" y1="0" x2="180" y2="630"/>
+    <line x1="240" y1="0" x2="240" y2="630"/>
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="360" y1="0" x2="360" y2="630"/>
+    <line x1="420" y1="0" x2="420" y2="630"/>
+    <line x1="480" y1="0" x2="480" y2="630"/>
+    <line x1="540" y1="0" x2="540" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="660" y1="0" x2="660" y2="630"/>
+    <line x1="720" y1="0" x2="720" y2="630"/>
+    <line x1="780" y1="0" x2="780" y2="630"/>
+    <line x1="840" y1="0" x2="840" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+    <line x1="960" y1="0" x2="960" y2="630"/>
+    <line x1="1020" y1="0" x2="1020" y2="630"/>
+    <line x1="1080" y1="0" x2="1080" y2="630"/>
+    <line x1="1140" y1="0" x2="1140" y2="630"/>
+  </g>
+  <!-- Logo -->
+  <g transform="translate(80, 60)">
+    <rect width="72" height="72" rx="18" fill="url(#grad1)"/>
+    <circle cx="36" cy="27" r="13.5" fill="white"/>
+    <ellipse cx="36" cy="41.5" rx="9.5" ry="6" fill="white" opacity="0.88"/>
+    <ellipse cx="36" cy="57" rx="3.8" ry="2.4" fill="white" opacity="0.78"/>
+    <circle cx="30.5" cy="24" r="2.8" fill="#c026d3"/>
+    <circle cx="41.5" cy="24" r="2.8" fill="#c026d3"/>
+    <circle cx="30.5" cy="23.2" r="1.4" fill="white"/>
+    <circle cx="41.5" cy="23.2" r="1.4" fill="white"/>
+  </g>
+  <!-- Squids text -->
+  <text x="168" y="107" font-family="Arial, sans-serif" font-weight="800" font-size="36" fill="white">Squids</text>
+  <!-- Main headline -->
+  <text x="80" y="260" font-family="Arial, sans-serif" font-weight="800" font-size="72" fill="white">Africa's Social</text>
+  <text x="80" y="350" font-family="Arial, sans-serif" font-weight="800" font-size="72" fill="url(#grad1)">Platform.</text>
+  <!-- Sub text -->
+  <text x="80" y="420" font-family="Arial, sans-serif" font-weight="400" font-size="26" fill="rgba(255,255,255,0.55)">Connect · Share · Discover · Thrive</text>
+  <!-- Stats row -->
+  <g transform="translate(80, 490)">
+    <rect width="160" height="52" rx="12" fill="rgba(20,180,157,0.1)" stroke="rgba(20,180,157,0.25)" stroke-width="1"/>
+    <text x="80" y="22" font-family="Arial,sans-serif" font-weight="800" font-size="20" fill="white" text-anchor="middle">54+</text>
+    <text x="80" y="40" font-family="Arial,sans-serif" font-size="13" fill="rgba(255,255,255,0.5)" text-anchor="middle">Nations</text>
+  </g>
+  <g transform="translate(260, 490)">
+    <rect width="160" height="52" rx="12" fill="rgba(20,180,157,0.1)" stroke="rgba(20,180,157,0.25)" stroke-width="1"/>
+    <text x="80" y="22" font-family="Arial,sans-serif" font-weight="800" font-size="20" fill="white" text-anchor="middle">5</text>
+    <text x="80" y="40" font-family="Arial,sans-serif" font-size="13" fill="rgba(255,255,255,0.5)" text-anchor="middle">Languages</text>
+  </g>
+  <g transform="translate(440, 490)">
+    <rect width="160" height="52" rx="12" fill="rgba(20,180,157,0.1)" stroke="rgba(20,180,157,0.25)" stroke-width="1"/>
+    <text x="80" y="22" font-family="Arial,sans-serif" font-weight="800" font-size="20" fill="white" text-anchor="middle">100%</text>
+    <text x="80" y="40" font-family="Arial,sans-serif" font-size="13" fill="rgba(255,255,255,0.5)" text-anchor="middle">Free</text>
+  </g>
+  <!-- URL -->
+  <text x="1120" y="590" font-family="Arial, sans-serif" font-size="20" fill="rgba(255,255,255,0.3)" text-anchor="end">squids.co.za</text>
+</svg>
