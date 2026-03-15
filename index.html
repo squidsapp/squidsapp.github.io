@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <!-- Primary SEO -->
+  <title>Squids — Africa's Social Platform | Join Free, First 200 Get Verified</title>
+  <meta name="description" content="Squids is Africa's leading social platform. Connect with millions across the continent. Share stories, discover communities, and grow together. First 200 accounts receive a free Verified Badge."/>
+  <meta name="keywords" content="Squids, Africa social media, South Africa social network, squids.co.za, app.squids.co.za, African platform, social media Africa, Mzansi social, Nigeria social, Kenya social, free verified badge"/>
+  <meta name="author" content="TyVila.Online"/>
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1"/>
+  <meta name="googlebot" content="index, follow"/>
+  <link rel="canonical" href="https://squids.co.za"/>
+  <!-- Geo -->
+  <meta name="geo.region" content="ZA"/>
+  <meta name="geo.placename" content="South Africa"/>
+  <meta name="language" content="English"/>
+  <meta name="coverage" content="Africa, Worldwide"/>
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/images/logo.svg"/>
+  <link rel="apple-touch-icon" href="/images/logo.svg"/>
+  <!-- Theme -->
+  <meta name="theme-color" content="#14b49d"/>
+  <meta name="msapplication-TileColor" content="#14b49d"/>
+  <!-- Open Graph — Facebook -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="Squids"/>
+  <meta property="og:title" content="Squids — Africa's Social Platform | First 200 Get Verified Free"/>
+  <meta property="og:description" content="Join Squids, Africa's leading social network. Connect, share stories, discover communities. First 200 accounts receive a free Verified Badge — no hassle, no cost."/>
+  <meta property="og:image" content="https://squids.co.za/images/og.svg"/>
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <meta property="og:image:alt" content="Squids — Africa's Social Platform. First 200 accounts get Verified Badge free."/>
+  <meta property="og:url" content="https://squids.co.za"/>
+  <meta property="og:locale" content="en_ZA"/>
+  <meta property="og:locale:alternate" content="ar_AE"/>
+  <meta property="og:locale:alternate" content="fr_FR"/>
+  <meta property="og:locale:alternate" content="sw_KE"/>
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@squidsapp"/>
+  <meta name="twitter:title" content="Squids — Africa's Social Platform"/>
+  <meta name="twitter:description" content="First 200 accounts get a free Verified Badge. Join Africa's fastest-growing social platform."/>
+  <meta name="twitter:image" content="https://squids.co.za/images/og.svg"/>
+  <!-- Structured Data -->
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Squids","url":"https://app.squids.co.za","description":"Africa's social platform for connecting, sharing stories, and discovering communities.","applicationCategory":"SocialNetworkingApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"ZAR"},"publisher":{"@type":"Organization","name":"TyVila.Online","url":"https://squids.co.za","logo":"https://squids.co.za/images/logo.svg","contactPoint":{"@type":"ContactPoint","email":"support@squids.co.za","contactType":"customer service"}},"screenshot":"https://squids.co.za/images/og.svg","inLanguage":["en","ar","sw","fr","zu","pt","es","ha","yo"],"countriesSupported":"ZA,NG,KE,GH,ET,EG,TZ,UG,ZW,CM,SN,CI,MA,DZ,TN,AO,MZ"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Squids","url":"https://squids.co.za","logo":"https://squids.co.za/images/logo.svg","email":"support@squids.co.za","sameAs":[],"address":{"@type":"PostalAddress","addressCountry":"ZA"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do I get the free Verified Badge?","acceptedAnswer":{"@type":"Answer","text":"Be among the first 200 users to create an account on Squids at app.squids.co.za. Your Verified Badge will be applied automatically — no application, no cost, no waiting."}},{"@type":"Question","name":"Is Squids free to use?","acceptedAnswer":{"@type":"Answer","text":"Yes, Squids is completely free. Create an account, share posts, follow people, join groups, and use all core features at no charge."}},{"@type":"Question","name":"What countries can use Squids?","acceptedAnswer":{"@type":"Answer","text":"Squids is open to everyone worldwide, with a strong focus on African communities including South Africa, Nigeria, Kenya, Ghana, Ethiopia, Egypt, and many more."}}]}</script>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800;900&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/css/main.css"/>
+  <link rel="stylesheet" href="/css/animations.css"/>
+</head>
+<body>
+
+<div id="progress"></div>
+<canvas id="particles"></canvas>
+<div class="ambient"><div class="orb orb-1"></div><div class="orb orb-2"></div><div class="orb orb-3"></div></div>
+<div class="grid-bg"></div>
+
+<!-- ── NAV ─────────────────────────────────── -->
+<nav class="nav">
+  <div class="wrap">
+    <div class="nav-inner">
+      <a href="/" class="nav-brand">
+        <img src="/images/logo.svg" alt="Squids" width="38" height="38"/>
+        <span class="nav-brand-name">Squids</span>
+      </a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#verified">Get Verified</a>
+        <a href="#languages">Languages</a>
+        <a href="#faq">FAQ</a>
+        <a href="#support">Support</a>
+      </div>
+      <div class="nav-end">
+        <a href="/pages/ar/" class="nav-lang">عربي</a>
+        <a href="/pages/fr/" class="nav-lang">FR</a>
+        <a href="https://app.squids.co.za" class="btn btn-primary" target="_blank" rel="noopener" style="padding:9px 20px;font-size:14px;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          Join Now
+        </a>
+      </div>
+      <button class="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile menu -->
+<div class="mobile-menu">
+  <button class="mobile-close btn-ghost">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <a href="#features">Features</a>
+  <a href="#verified">Get Verified</a>
+  <a href="#languages">Languages</a>
+  <a href="#faq">FAQ</a>
+  <a href="#support">Support</a>
+  <a href="https://app.squids.co.za" target="_blank" rel="noopener" style="color:var(--teal)">Join Squids</a>
+</div>
+
+<!-- ── HERO ─────────────────────────────────── -->
+<section class="hero" id="home">
+  <div class="wrap">
+    <div class="hero-layout">
+      <div>
+        <div class="hero-eyebrow reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <span>First 200 accounts get Verified — Free</span>
+        </div>
+        <h1 class="hero-h1 reveal" data-d="1">
+          Africa's<br/><em>Social</em><br/>Platform
+        </h1>
+        <p class="hero-sub reveal" data-d="2">Connect with millions across the continent. Share your stories, discover communities, and grow together on Squids — built for Africa, open to the world.</p>
+        <div class="hero-actions reveal" data-d="3">
+          <a href="https://app.squids.co.za" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            Create Free Account
+          </a>
+          <a href="#features" class="btn btn-ghost btn-lg">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+            Explore Features
+          </a>
+        </div>
+        <div class="hero-proof reveal" data-d="4">
+          <div class="proof-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>Free forever — no credit card needed</span>
+          </div>
+          <div class="proof-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            <span><strong>First 200 users</strong> receive a Verified Badge automatically</span>
+          </div>
+          <div class="proof-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>Available in 9 African languages</span>
+          </div>
+          <div class="proof-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>POPIA compliant — your data belongs to you</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Phone mockup -->
+      <div class="phone-outer reveal scale" data-d="2">
+        <div class="phone-glow"></div>
+        <div class="phone">
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+            <!-- Post 1 -->
+            <div class="mock-post">
+              <div class="mock-row">
+                <div class="mock-av av-teal"></div>
+                <div class="mock-info">
+                  <div class="mock-name">Amara Osei <span class="mock-vbadge"><svg viewBox="0 0 24 24" fill="#14b49d" width="12" height="12"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></span></div>
+                  <div class="mock-handle">@amara · Ghana</div>
+                </div>
+              </div>
+              <div class="mock-text">The energy at Accra's night market is something else. Squids lets me share these moments with the whole continent.</div>
+              <div class="mock-bar">
+                <div class="mock-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg> 248</div>
+                <div class="mock-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> 42</div>
+              </div>
+            </div>
+            <!-- Post 2 -->
+            <div class="mock-post">
+              <div class="mock-row">
+                <div class="mock-av av-purple"></div>
+                <div class="mock-info">
+                  <div class="mock-name">Nadia Benhassen <span class="mock-vbadge"><svg viewBox="0 0 24 24" fill="#14b49d" width="12" height="12"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></span></div>
+                  <div class="mock-handle">@nadia · Tunisia</div>
+                </div>
+              </div>
+              <div class="mock-img"></div>
+              <div class="mock-text">Sunrise over the Sahara — some views you never get tired of.</div>
+              <div class="mock-bar">
+                <div class="mock-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg> 891</div>
+                <div class="mock-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> 116</div>
+              </div>
+            </div>
+            <!-- Post 3 -->
+            <div class="mock-post">
+              <div class="mock-row">
+                <div class="mock-av av-gold"></div>
+                <div class="mock-info">
+                  <div class="mock-name">Kofi Mensah <span class="mock-vbadge"><svg viewBox="0 0 24 24" fill="#14b49d" width="12" height="12"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></span></div>
+                  <div class="mock-handle">@kofi · Nigeria</div>
+                </div>
+              </div>
+              <div class="mock-text">Afrobeats is taking over the world one track at a time. Stream my new project on Ocean.</div>
+              <div class="mock-bar">
+                <div class="mock-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg> 1.2k</div>
+                <div class="mock-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> 203</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── TICKER ─────────────────────────────────── -->
+<div class="ticker-outer">
+  <div class="ticker" id="ticker">
+    <div class="tick-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Free to join</div>
+    <div class="tick-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg> Verified Badge for first 200</div>
+    <div class="tick-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> 54 African countries</div>
+    <div class="tick-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> POPIA compliant</div>
+    <div class="tick-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> Real-time messaging</div>
+    <div class="tick-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg> Ocean music streaming</div>
+    <div class="tick-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> Community groups</div>
+    <div class="tick-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Q&amp;A platform</div>
+    <!-- Duplicate for seamless loop -->
+    <div class="tick-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Free to join</div>
+    <div class="tick-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg> Verified Badge for first 200</div>
+    <div class="tick-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> 54 African countries</div>
+    <div class="tick-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> POPIA compliant</div>
+    <div class="tick-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> Real-time messaging</div>
+    <div class="tick-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg> Ocean music streaming</div>
+    <div class="tick-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> Community groups</div>
+    <div class="tick-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Q&amp;A platform</div>
+  </div>
+</div>
+
+<!-- ── STATS ─────────────────────────────────── -->
+<section style="padding: 80px 0;">
+  <div class="wrap">
+    <div class="stats-band">
+      <div class="stat-b reveal"><div class="stat-n num-glow" data-count="1" data-suffix="B+">1B+</div><div class="stat-l">Africans we serve</div></div>
+      <div class="stat-b reveal" data-d="1"><div class="stat-n num-glow" data-count="54" data-suffix="">54</div><div class="stat-l">African countries</div></div>
+      <div class="stat-b reveal" data-d="2"><div class="stat-n num-glow" data-count="9" data-suffix="">9</div><div class="stat-l">Languages supported</div></div>
+      <div class="stat-b reveal" data-d="3"><div class="stat-n num-glow" data-count="200" data-suffix="">200</div><div class="stat-l">Free verified spots</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── VERIFIED ─────────────────────────────────── -->
+<section id="verified" style="padding-top:60px;">
+  <div class="wrap">
+    <div class="verified-banner">
+      <div class="vb-inner">
+        <div class="label label-gold" style="margin-bottom:24px;">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          Limited — Founding Member Offer
+        </div>
+        <div class="vb-counter">
+          <div class="vb-num num-glow" id="verified-count" data-count="200">200</div>
+          <div class="vb-label">
+            <strong>Spots remaining</strong>
+            <span>First 200 accounts verified free</span>
+          </div>
+        </div>
+        <h2 class="vb-h">Be Verified From Day One.<br/>No Application. No Cost.</h2>
+        <p class="vb-p">The first 200 people to create a Squids account receive a permanent Verified Badge — the same badge that marks trusted, notable accounts on the platform. Create your account now and secure your spot before they're gone.</p>
+        <a href="https://app.squids.co.za" target="_blank" rel="noopener" class="btn btn-primary btn-xl">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          Claim Your Verified Badge Now
+        </a>
+        <div class="vb-steps stagger-parent">
+          <div class="vb-step">
+            <div class="step-n">1</div>
+            <div class="step-t">Create your account</div>
+            <div class="step-d">Sign up at app.squids.co.za — it takes under 60 seconds and costs nothing.</div>
+          </div>
+          <div class="vb-step">
+            <div class="step-n">2</div>
+            <div class="step-t">Complete your profile</div>
+            <div class="step-d">Add a photo, bio, and your interests to finish onboarding on the app.</div>
+          </div>
+          <div class="vb-step">
+            <div class="step-n">3</div>
+            <div class="step-t">Badge applied automatically</div>
+            <div class="step-d">If you're in the first 200, the Verified Badge appears on your profile immediately.</div>
+          </div>
+        </div>
+        <div class="urgency-bar">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <p>This offer ends when the 200 spots are filled — <strong>join now before they're gone.</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FEATURES ─────────────────────────────────── -->
+<section id="features">
+  <div class="wrap">
+    <div class="sh center reveal">
+      <div class="sh-tag"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Everything you need</div>
+      <h2>Built for <em>Africa</em>, loved worldwide</h2>
+      <p>Squids packs every feature you need to connect, create, and grow — designed from the ground up for African networks and communities.</p>
+    </div>
+    <div class="features-grid stagger-parent">
+      <div class="feat">
+        <div class="feat-icon fi-teal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <h3>Social Feed</h3>
+        <p>A personalised, real-time feed of posts, photos, videos, and stories from people and communities you follow across Africa.</p>
+      </div>
+      <div class="feat">
+        <div class="feat-icon fi-purple">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        </div>
+        <h3>Lightning Messaging</h3>
+        <p>End-to-end encrypted direct messages and group chats. Fast, private, and built to work on slower connections too.</p>
+      </div>
+      <div class="feat">
+        <div class="feat-icon fi-gold">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+        </div>
+        <h3>Ocean — Music</h3>
+        <p>Discover and stream African music. Upload your own tracks, build playlists, and support local artists directly on the platform.</p>
+      </div>
+      <div class="feat">
+        <div class="feat-icon fi-blue">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="23" y1="11" x2="17" y2="11"/><line x1="20" y1="8" x2="20" y2="14"/></svg>
+        </div>
+        <h3>Community Groups</h3>
+        <p>Create or join groups around culture, business, sports, faith, tech, and more. Public and private groups supported.</p>
+      </div>
+      <div class="feat">
+        <div class="feat-icon fi-rose">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        </div>
+        <h3>Q&amp;A Platform</h3>
+        <p>Ask questions and get answers from your community. Upvote the best answers, mark solutions, and build a knowledge base.</p>
+      </div>
+      <div class="feat">
+        <div class="feat-icon fi-green">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>Privacy First</h3>
+        <p>POPIA compliant. Your data belongs to you — we never sell it. Granular privacy controls on every post and interaction.</p>
+      </div>
+      <div class="feat">
+        <div class="feat-icon fi-teal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+        </div>
+        <h3>Real-time Everything</h3>
+        <p>Instant notifications, live feed updates, and real-time typing indicators. Squids keeps you connected as things happen.</p>
+      </div>
+      <div class="feat">
+        <div class="feat-icon fi-purple">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+        </div>
+        <h3>Verified Profiles</h3>
+        <p>Verified badges for trusted accounts build credibility and authenticity. The first 200 members receive theirs free, forever.</p>
+      </div>
+      <div class="feat">
+        <div class="feat-icon fi-gold">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </div>
+        <h3>Pan-African</h3>
+        <p>Built to serve all of Africa — from Cape Town to Cairo, Lagos to Nairobi. Available in 9 languages with more coming.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── AFRICA / MAP ─────────────────────────────────── -->
+<section id="africa">
+  <div class="wrap">
+    <div class="africa-section">
+      <div class="africa-visual reveal from-left">
+        <div class="africa-dots">
+          <!-- SVG Africa map with city dots -->
+          <svg viewBox="0 0 320 420" width="320" height="420" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Simplified Africa shape -->
+            <path d="M120 20 L200 18 L240 40 L270 80 L280 130 L278 180 L260 230 L255 280 L235 330 L200 370 L170 400 L140 380 L110 340 L90 290 L75 240 L60 190 L55 140 L65 90 L90 50 Z" fill="rgba(20,180,157,.06)" stroke="rgba(20,180,157,.2)" stroke-width="1.5"/>
+            <!-- City connection lines -->
+            <line x1="160" y1="340" x2="210" y2="200" stroke="rgba(20,180,157,.2)" stroke-width="1" stroke-dasharray="4 4" class="connect-line line-draw"/>
+            <line x1="210" y1="200" x2="200" y2="100" stroke="rgba(20,180,157,.15)" stroke-width="1" stroke-dasharray="4 4" class="connect-line line-draw"/>
+            <line x1="160" y1="340" x2="120" y2="220" stroke="rgba(20,180,157,.2)" stroke-width="1" stroke-dasharray="4 4" class="connect-line line-draw"/>
+            <line x1="120" y1="220" x2="140" y2="120" stroke="rgba(20,180,157,.15)" stroke-width="1" stroke-dasharray="4 4" class="connect-line line-draw"/>
+            <line x1="210" y1="200" x2="230" y2="140" stroke="rgba(20,180,157,.18)" stroke-width="1" stroke-dasharray="4 4" class="connect-line line-draw"/>
+          </svg>
+          <!-- City dots positioned over Africa -->
+          <div class="city-dot" style="left:148px;top:326px;" title="Cape Town, South Africa">
+            <div class="city-dot-inner"></div><div class="city-dot-ring"></div>
+          </div>
+          <div class="city-dot" style="left:196px;top:188px;" title="Nairobi, Kenya">
+            <div class="city-dot-inner" style="animation-delay:.3s"></div><div class="city-dot-ring" style="animation-delay:.3s"></div>
+          </div>
+          <div class="city-dot" style="left:108px;top:206px;" title="Lagos, Nigeria">
+            <div class="city-dot-inner" style="animation-delay:.6s"></div><div class="city-dot-ring" style="animation-delay:.6s"></div>
+          </div>
+          <div class="city-dot" style="left:186px;top:88px;" title="Cairo, Egypt">
+            <div class="city-dot-inner" style="animation-delay:.9s"></div><div class="city-dot-ring" style="animation-delay:.9s"></div>
+          </div>
+          <div class="city-dot" style="left:116px;top:116px;" title="Accra, Ghana">
+            <div class="city-dot-inner" style="animation-delay:1.2s"></div><div class="city-dot-ring" style="animation-delay:1.2s"></div>
+          </div>
+          <div class="city-dot" style="left:218px;top:128px;" title="Addis Ababa, Ethiopia">
+            <div class="city-dot-inner" style="animation-delay:1.5s"></div><div class="city-dot-ring" style="animation-delay:1.5s"></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="sh reveal">
+          <div class="sh-tag"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> Made for Africa</div>
+          <h2>From <em>Cairo</em> to<br/>Cape Town</h2>
+          <p>Squids is designed for African networks — built to work well across varied connectivity, speak your language, and celebrate your culture. One platform, 54 countries, one billion stories.</p>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:16px;margin-top:8px;">
+          <div class="proof-row reveal" data-d="1">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>Optimised for low-bandwidth connections</span>
+          </div>
+          <div class="proof-row reveal" data-d="2">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>9 African languages: English, Arabic, French, Swahili, Zulu, Portuguese, Spanish, Hausa, Yoruba</span>
+          </div>
+          <div class="proof-row reveal" data-d="3">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>Hosted on infrastructure built for Africa</span>
+          </div>
+          <div class="proof-row reveal" data-d="4">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>Serving communities from Dakar to Dar es Salaam</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── LANGUAGES ─────────────────────────────────── -->
+<section id="languages">
+  <div class="wrap">
+    <div class="sh center reveal">
+      <div class="sh-tag">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 8l6 6"/><path d="M4 14l6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="M22 22l-5-10-5 10"/><path d="M14 18h6"/></svg>
+        Languages
+      </div>
+      <h2>Squids speaks <em>your</em> language</h2>
+      <p>Full support for 9 languages across the African continent — with RTL support for Arabic and more languages being added.</p>
+    </div>
+    <div class="lang-grid stagger-parent">
+      <a href="/pages/ar/" class="lang-pill"><span class="lf">🌍</span> العربية</a>
+      <a href="/pages/fr/" class="lang-pill"><span class="lf">🌍</span> Français</a>
+      <a href="/pages/sw/" class="lang-pill"><span class="lf">🌍</span> Kiswahili</a>
+      <a href="/pages/zu/" class="lang-pill"><span class="lf">🌍</span> IsiZulu</a>
+      <a href="/pages/pt/" class="lang-pill"><span class="lf">🌍</span> Português</a>
+      <a href="/pages/es/" class="lang-pill"><span class="lf">🌍</span> Español</a>
+      <a href="/pages/ha/" class="lang-pill"><span class="lf">🌍</span> Hausa</a>
+      <a href="/pages/yo/" class="lang-pill"><span class="lf">🌍</span> Yorùbá</a>
+      <a href="/" class="lang-pill" style="border-color:rgba(20,180,157,.3);color:var(--teal);"><span class="lf">🌍</span> English</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── TESTIMONIALS ─────────────────────────────────── -->
+<section id="community">
+  <div class="wrap">
+    <div class="sh center reveal">
+      <div class="sh-tag"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg> Community</div>
+      <h2>Voices across <em>Africa</em></h2>
+      <p>Real people, real stories from across the continent building connections on Squids every day.</p>
+    </div>
+    <div class="test-grid stagger-parent">
+      <div class="test-card">
+        <div class="stars">
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <p class="test-q">Finally a platform that feels like it was made for us. I connect with people in Johannesburg, Lagos, and Nairobi every single day. The communities here are genuinely warm.</p>
+        <div class="test-author">
+          <div class="test-av av-teal"></div>
+          <div><div class="test-name">Sipho Dlamini</div><div class="test-loc">Johannesburg, South Africa</div></div>
+        </div>
+      </div>
+      <div class="test-card">
+        <div class="stars">
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <p class="test-q">The Ocean feature is incredible for independent artists. I uploaded three tracks and reached listeners in 12 countries within a week. No other platform does this for us.</p>
+        <div class="test-author">
+          <div class="test-av av-purple"></div>
+          <div><div class="test-name">Amina Diallo</div><div class="test-loc">Dakar, Senegal</div></div>
+        </div>
+      </div>
+      <div class="test-card">
+        <div class="stars">
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <p class="test-q">The Q&amp;A section has helped my business so much. I ask questions, get real answers from people who know. The tech community in Nairobi has built something amazing here.</p>
+        <div class="test-author">
+          <div class="test-av av-gold"></div>
+          <div><div class="test-name">Kamau Njoroge</div><div class="test-loc">Nairobi, Kenya</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FAQ ─────────────────────────────────── -->
+<section id="faq">
+  <div class="wrap">
+    <div class="sh center reveal">
+      <div class="sh-tag"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Questions</div>
+      <h2>Frequently asked</h2>
+    </div>
+    <div class="faq-wrap">
+      <div class="faq-item active">
+        <div class="faq-q"><span>How do I get the free Verified Badge?</span><div class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div></div>
+        <div class="faq-a">Be among the first 200 users to create an account on Squids at app.squids.co.za. Your Verified Badge is applied automatically after you complete your profile — no application, no cost, no waiting. It's permanent.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span>Is Squids really free?</span><div class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div></div>
+        <div class="faq-a">Yes, completely. Creating an account, posting, messaging, joining groups, using Q&amp;A, streaming on Ocean — all core features are free forever. No hidden charges, no credit card required.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span>Which countries can use Squids?</span><div class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div></div>
+        <div class="faq-a">Squids is open to everyone worldwide. We have a strong focus on Africa — South Africa, Nigeria, Kenya, Ghana, Ethiopia, Egypt, Tanzania, Uganda, Zimbabwe, Cameroon, and all 54 African nations — but anyone anywhere can join.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span>What languages does Squids support?</span><div class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div></div>
+        <div class="faq-a">Squids currently supports English, Arabic, French, Swahili, Zulu, Portuguese, Spanish, Hausa, and Yoruba. More languages are being added regularly. Arabic has full RTL support.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span>Is my data safe on Squids?</span><div class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div></div>
+        <div class="faq-a">Yes. Squids is POPIA compliant. We never sell your data to advertisers or third parties. Your messages are end-to-end encrypted. You have full control over your privacy settings, who can see your posts, and what data you share.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span>How do I contact support?</span><div class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div></div>
+        <div class="faq-a">Email us at support@squids.co.za — our support team responds within 24 hours, Monday through Saturday. You can also reach the @squids account directly on the app for platform announcements and updates.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span>What is Ocean on Squids?</span><div class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div></div>
+        <div class="faq-a">Ocean is Squids' built-in music streaming feature. Independent African artists can upload and share their music, and listeners can discover, stream, and support them directly on the platform without leaving the app.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SUPPORT ─────────────────────────────────── -->
+<section id="support">
+  <div class="wrap">
+    <div class="support-box reveal scale">
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="1.5" style="margin:0 auto 20px"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+      <h2>We're here to help</h2>
+      <p>Have a question, need help with your account, or want to report something? Our support team is ready to assist you.</p>
+      <a href="mailto:support@squids.co.za" class="support-email-link">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        support@squids.co.za
+      </a>
+      <div class="support-hours">Response time: within 24 hours · Monday – Saturday</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA ─────────────────────────────────── -->
+<section>
+  <div class="wrap">
+    <div class="cta-box reveal scale">
+      <div class="label label-teal" style="margin-bottom:24px;">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        First 200 only
+      </div>
+      <h2>Your story belongs<br/>on Squids.</h2>
+      <p>Join Africa's fastest-growing social platform. Create your account free and secure your Verified Badge before the 200 spots are gone.</p>
+      <div class="cta-actions">
+        <a href="https://app.squids.co.za" target="_blank" rel="noopener" class="btn btn-primary btn-xl">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          Join Squids — It's Free
+        </a>
+      </div>
+      <p class="cta-url">app.squids.co.za</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ─────────────────────────────────── -->
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="/images/logo.svg" alt="Squids" width="38" height="38"/>
+        <h3>Squids</h3>
+        <p>Africa's social platform. Connect, share, and grow with communities across the continent.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Platform</h4>
+        <ul>
+          <li><a href="https://app.squids.co.za" target="_blank" rel="noopener">Launch App</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#verified">Get Verified</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Languages</h4>
+        <ul>
+          <li><a href="/pages/ar/">العربية</a></li>
+          <li><a href="/pages/fr/">Français</a></li>
+          <li><a href="/pages/sw/">Kiswahili</a></li>
+          <li><a href="/pages/zu/">IsiZulu</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="https://policies.squids.co.za/terms" target="_blank" rel="noopener">Terms of Service</a></li>
+          <li><a href="https://policies.squids.co.za/privacy" target="_blank" rel="noopener">Privacy Policy</a></li>
+          <li><a href="https://policies.squids.co.za/help" target="_blank" rel="noopener">Help Centre</a></li>
+          <li><a href="mailto:support@squids.co.za">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 TyVila.Online · Squids is a product of TyVila. All rights reserved.</p>
+      <div class="footer-langs-row">
+        <a href="/pages/ar/">AR</a>
+        <a href="/pages/fr/">FR</a>
+        <a href="/pages/sw/">SW</a>
+        <a href="/pages/zu/">ZU</a>
+        <a href="/pages/pt/">PT</a>
+        <a href="/pages/es/">ES</a>
+        <a href="/pages/ha/">HA</a>
+        <a href="/pages/yo/">YO</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/main.js"></script>
+</body>
+</html>

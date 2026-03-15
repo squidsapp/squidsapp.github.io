@@ -1,0 +1,12 @@
+/* ─── DARK THEME (DEFAULT) VARIABLES ─── */
+:root{
+  --bg:#06060e;--bg1:#0b0b17;--bg2:#10101e;--bg3:#161628;--bg4:#1e1e36;
+  --border:rgba(255,255,255,.07);--border2:rgba(255,255,255,.12);
+  --text:#f2f2ff;--text2:#c0c0dc;--text3:#7070a0;--text4:#404060;
+}
+/* ─── LIGHT THEME OVERRIDE (future) ─── */
+.theme-light{
+  --bg:#f8f9ff;--bg1:#f0f1fa;--bg2:#e8e9f4;--bg3:#dde0f0;--bg4:#d0d4e8;
+  --border:rgba(0,0,0,.08);--border2:rgba(0,0,0,.14);
+  --text:#0a0a18;--text2:#1e1e3a;--text3:#50508a;--text4:#9090b8;
+}

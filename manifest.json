@@ -1,0 +1,17 @@
+{
+  "name": "Squids",
+  "short_name": "Squids",
+  "description": "Africa's Social Platform",
+  "start_url": "https://app.squids.co.za",
+  "display": "browser",
+  "background_color": "#06060e",
+  "theme_color": "#14b49d",
+  "icons": [
+    { "src": "/images/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ],
+  "lang": "en-ZA",
+  "categories": ["social", "news"],
+  "related_applications": [
+    { "platform": "webapp", "url": "https://app.squids.co.za" }
+  ]
+}

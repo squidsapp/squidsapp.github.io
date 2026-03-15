@@ -1,0 +1,9 @@
+@media print{
+  .nav,.hamburger,.mobile-menu,.ambient,.grid-bg,canvas,.cta-box,.ticker-outer{display:none!important}
+  body{background:#fff;color:#000;font-size:12pt}
+  a{color:#14b49d;text-decoration:underline}
+  .feat,.verified-banner,.stats-band{break-inside:avoid;page-break-inside:avoid}
+  section{padding:24pt 0}
+  .wrap,.wrap-md{max-width:100%;padding:0}
+  h1,h2,h3{color:#000;font-family:Georgia,serif}
+}

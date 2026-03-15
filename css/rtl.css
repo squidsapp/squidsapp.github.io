@@ -1,0 +1,14 @@
+grid>*{direction:ltr}
+[dir="rtl"] .hero-eyebrow{flex-direction:row-reverse}
+[dir="rtl"] .sh-tag{flex-direction:row-reverse}
+[dir="rtl"] .label{flex-direction:row-reverse}
+[dir="rtl"] .btn{flex-direction:row-reverse}
+[dir="rtl"] .footer-bottom{flex-direction:row-reverse}
+[dir="rtl"] .hero-actions{flex-direction:row-reverse}
+[dir="rtl"] .cta-actions{flex-direction:row-reverse}
+[dir="rtl"] .test-card{text-align:right}
+[dir="rtl"] .vb-counter{flex-direction:row-reverse}
+[dir="rtl"] .lang-pill{flex-direction:row-reverse}
+[dir="rtl"] .support-email-link{flex-direction:row-reverse}
+[dir="rtl"] .urgency-bar p{text-align:right}
+[dir="rtl"] .footer-langs-row{flex-direction:row-reverse}

@@ -1,0 +1,15 @@
+/* ─── FONT FACE DECLARATIONS ─── */
+/* Loaded via Google Fonts CDN in each HTML file head */
+/* Fallback stack for each language */
+:root{
+  --font:'Instrument Sans','DM Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  --font-d:'Syne','Space Grotesk','Plus Jakarta Sans',system-ui,sans-serif;
+  --font-m:'JetBrains Mono','Fira Code','Cascadia Code',monospace;
+  --font-ar:'Cairo','Noto Kufi Arabic','Almarai',system-ui,sans-serif;
+  --font-sw:'Plus Jakarta Sans','DM Sans',system-ui,sans-serif;
+}
+[lang="ar"]{font-family:var(--font-ar)}
+[lang="ha"]{font-family:'Plus Jakarta Sans',var(--font)}
+[lang="yo"]{font-family:'Plus Jakarta Sans',var(--font)}
+[lang="zu"]{font-family:var(--font)}
+[lang="sw"]{font-family:var(--font)}

@@ -1,0 +1,10 @@
+/* TEAM */
+Company: TyVila.Online
+Contact: support@squids.co.za
+Location: South Africa
+
+/* SITE */
+Last update: 2026-03-15
+Language: English, Arabic, French, Swahili, Zulu, Portuguese, Spanish, Hausa, Yoruba
+Doctype: HTML5
+IDE: Built with care

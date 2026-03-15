@@ -1,0 +1,13 @@
+# GitHub Pages config
+theme: null
+plugins: []
+exclude:
+  - "*.md"
+  - "README.md"
+sass:
+  sass_dir: css
+include:
+  - "images"
+  - "css"
+  - "js"
+  - "pages"
