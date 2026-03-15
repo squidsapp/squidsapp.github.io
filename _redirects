@@ -1,2 +1,0 @@
-/app    https://app.squids.co.za    301
-/app/*  https://app.squids.co.za/:splat    301
